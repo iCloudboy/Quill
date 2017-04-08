@@ -23,6 +23,7 @@ if (isset($_POST['login'])) {
         exit();
     } else {
         echo $stmt->num_rows();
+        echo $userIP;
 //        $stmt->close();
 //        if (!empty($email) && !empty($password)) {
 //            //if (filter_var($email, FILTER_VALIDATE_EMAIL)) { //check for valid email address
