@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
     if ($num_rows >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
         print_r($_SESSION['login_error']);
-        header("Refresh:3; url=/login.php");
+        header("Refresh:3; url=../../login.php");
         exit();
     } else {
         $stmt->close();
@@ -82,7 +82,7 @@ if (isset($_POST['login'])) {
 
 
                             $_SESSION['login_error'] = "Email address not registered. Please enter a valid email address";
-                            //header("Refresh:3; url=/login.php");
+                            header("Refresh:3; url=../../login.php");
                             print_r($_SESSION['login_error']);
                             exit();
                         }
@@ -93,13 +93,13 @@ if (isset($_POST['login'])) {
                 } else {
                     $_SESSION['login_error'] = "Password must be no more than 50 characters. Please try again.";
                     print_r($_SESSION['login_error']);
-                    header("Refresh:3; url=/login.php");
+                    header("Refresh:3; url=../../login.php");
                     exit();
                 }
             } else {
                 $_SESSION['login_error'] = "Email address must be no more than 50 characters. Please try again.";
                 print_r($_SESSION['login_error']);
-                header("Refresh:3; url=/login.php");
+                header("Refresh:3; url=../../login.php");
                 exit();
             }
 //        //} else {
@@ -111,13 +111,13 @@ if (isset($_POST['login'])) {
         } else {
             $_SESSION['login_error'] = "Input fields cannot be empty. Please try again.";
             print_r($_SESSION['login_error']);
-            header("Refresh:3; url=/login.php");
+            header("Refresh:3; url=../../login.php");
             exit();
         }
     }
 } else {
     $_SESSION['login_error'] = "An error has occurred. Please try again";
     print_r($_SESSION['login_error']);
-    header("Refresh:3; url=/login.php");
+    header("Refresh:3; url=../../login.php");
     exit();
 }
