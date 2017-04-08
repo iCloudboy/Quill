@@ -10,13 +10,13 @@ $password = filter_has_var(INPUT_POST, 'password') ? $_POST['password']: null;
 
 if (isset($_POST['login'])) {
     //check how many times someone has logged in from this IP address.
-    $sql= "SELECT * FROM ipaddress WHERE loginIP = ?";
+    $sql= "SELECT COUNT * FROM ipaddress WHERE loginIP = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $userIP);
     $stmt->execute();
 
 
-    if ($stmt->num_rows >= 3) {
+    if ($stmt >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
         print_r($_SESSION['login_error']);
         header("Refresh:3; url=/login.php");
