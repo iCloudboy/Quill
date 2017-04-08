@@ -57,9 +57,8 @@ if (isset($_POST['login'])) {
                             } else {
 
                                 $incorrectpasswordsql = "INSERT INTO ipaddress(loginIP) VALUES (?)";
-                                $stmt3 = $conn->prepare($incorrectpasswordsql);
-                                $stmt3->bind_param(0, '299.299.299.1');
-                                $stmt3->execute();
+                                $stmt3 = $incorrectpasswordsql;
+                                $conn->exec($stmt3);
 
                                 if ($stmt3 != false){
                                     echo "incorrect password. Please try again.";
