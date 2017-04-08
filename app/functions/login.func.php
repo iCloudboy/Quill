@@ -14,8 +14,7 @@ if (isset($_POST['login'])) {
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $userIP);
     $stmt->execute();
-    $num_rows = $stmt->num_rows();
-
+    $num_rows = $stmt->num_rows;
 
     if ($num_rows >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
