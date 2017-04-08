@@ -36,12 +36,11 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
 
     if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
         //website secret key
-        $secretkey = '6LdlDhwUAAAAAGHscAj6OQoWqZbgfeA3TEnOXnIW';
+        $secretkey = '6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz';
         //get verify response data
         $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
         $responseData = json_decode($verifyResponse);
         if($responseData->success) {
-
 
             if (!empty($firstname) && !empty($lastname) && !empty($dob) && !empty($email) && !empty($userPassword) && !empty($confirmpassword)) { //check if any of the input fields are empty
 
