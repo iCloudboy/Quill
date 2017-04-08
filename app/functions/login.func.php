@@ -58,7 +58,7 @@ if (isset($_POST['login'])) {
 
                                 $incorrectpasswordsql = "INSERT INTO ipaddress VALUES (?)";
                                 $stmt3 = $conn->prepare($incorrectpasswordsql);
-                                $stmt3->bind_param("s", $userIP, PDO::PARAM_STR);
+                                $stmt3->bind_param(1, $userIP);
                                 $stmt3->execute();
 
                                 if ($stmt3 != false){
