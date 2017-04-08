@@ -64,7 +64,7 @@ if (isset($_POST['login'])) {
                                     $stmt3->execute();
                                 }
                                 else {
-                                    die("Errormessage: ". $mysqli->error);
+                                    die("Errormessage: ". $conn->error);
                                 }
 
                                 if ($stmt3 != false){
