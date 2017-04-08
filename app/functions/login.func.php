@@ -10,19 +10,20 @@ $password = filter_has_var(INPUT_POST, 'password') ? $_POST['password']: null;
 
 if (isset($_POST['login'])) {
     //check how many times someone has logged in from this IP address.
-    $sql= "SELECT COUNT * FROM ipaddress WHERE loginIP = ?";
+    $sql= "SELECT * FROM ipaddress WHERE loginIP = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $userIP);
     $stmt->execute();
+    $num_rows = mysqli_num_rows($stmt);
 
 
-    if ($stmt >= 3) {
+    if ($num_rows >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
         print_r($_SESSION['login_error']);
         header("Refresh:3; url=/login.php");
         exit();
     } else {
-        echo $stmt->num_rows;
+        echo $num_rows;
 //        $stmt->close();
 //        if (!empty($email) && !empty($password)) {
 //            //if (filter_var($email, FILTER_VALIDATE_EMAIL)) { //check for valid email address
