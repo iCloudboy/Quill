@@ -22,7 +22,7 @@ if (isset($_POST['login'])) {
         header("Refresh:3; url=/login.php");
         exit();
     } else {
-        echo $stmt->num_rows();
+        echo $stmt->num_rows;
 //        $stmt->close();
 //        if (!empty($email) && !empty($password)) {
 //            //if (filter_var($email, FILTER_VALIDATE_EMAIL)) { //check for valid email address
