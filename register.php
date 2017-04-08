@@ -152,9 +152,10 @@
                             <h3>Confirm Password</h3>
                             <input type="password" id="confirmpassword" name="confirmpassword" maxlength="50">
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
-                        <input type="submit" form="registerform" value="Create Account" name="new-user"/>
+
                     </form>
+                    <div class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
+                    <input type="submit" form="registerform" value="Create Account" name="new-user"/>
 
                 </div>
             </div>
