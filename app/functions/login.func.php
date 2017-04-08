@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
     $stmt->bind_param("s", $userIP);
     $stmt->execute();
 
-    if ($stmt->rowCount() >= 3) {
+    if ($stmt->num_rows() >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
         print_r($_SESSION['login_error']);
         header("Refresh:3; url=/login.php");
