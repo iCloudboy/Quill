@@ -16,14 +16,13 @@ if (isset($_POST['login'])) {
     $stmt->execute();
 
 
-    if ($stmt->num_rows() >= 3) {
+    if ($stmt->num_rows >= 3) {
         $_SESSION['login_error'] = "You have tried to log in too many times.";
         print_r($_SESSION['login_error']);
         header("Refresh:3; url=/login.php");
         exit();
     } else {
         echo $stmt->num_rows();
-        echo $userIP;
 //        $stmt->close();
 //        if (!empty($email) && !empty($password)) {
 //            //if (filter_var($email, FILTER_VALIDATE_EMAIL)) { //check for valid email address
