@@ -70,7 +70,7 @@ if (isset($_POST['login'])) {
 
                                 if ($stmt3 != false){
                                     echo "incorrect password. Please try again.";
-                                    header("Refresh:3; url=/login.php");
+                                    header("Refresh:3; url=login.php");
                                     exit();
                                 } else {
                                     echo "Error storing ip address.";
