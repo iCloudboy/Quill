@@ -59,7 +59,7 @@ if (isset($_POST['login'])) {
                                 $incorrectpasswordsql = "INSERT INTO ipaddress(loginIP) VALUES (?)";
                                 $stmt3 = $conn->prepare($incorrectpasswordsql);
                                 $stmt3->bind_param("s", $userIP2);
-                                $db->errorInfo()
+                                $db->errorInfo();
                                 $userIP2 = $userIP;
                                 $stmt3->execute();
 
