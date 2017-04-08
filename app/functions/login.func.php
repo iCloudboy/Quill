@@ -56,18 +56,20 @@ if (isset($_POST['login'])) {
                                 }
                             } else {
 
-                                $incorrectpasswordsql = "INSERT INTO ipaddress(loginIP) VALUES (?)";
-                                $stmt3 = $conn->prepare($incorrectpasswordsql);
-                                $stmt3->bind_param("i", $userIP);
-                                $stmt3->execute();
+                                echo $userIP;
 
-                                if ($stmt3 != false){
-                                    echo "incorrect password. Please try again.";
-                                    header("Refresh:3; url=/login.php");
-                                    exit();
-                                } else {
-                                    echo "Error storing ip address.";
-                                }
+//                                $incorrectpasswordsql = "INSERT INTO ipaddress(loginIP) VALUES (?)";
+//                                $stmt3 = $conn->prepare($incorrectpasswordsql);
+//                                $stmt3->bind_param("s", $userIP);
+//                                $stmt3->execute();
+//
+//                                if ($stmt3 != false){
+//                                    echo "incorrect password. Please try again.";
+//                                    header("Refresh:3; url=/login.php");
+//                                    exit();
+//                                } else {
+//                                    echo "Error storing ip address.";
+//                                }
 
 
                             }
