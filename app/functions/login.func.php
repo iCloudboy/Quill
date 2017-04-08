@@ -14,7 +14,7 @@ if (isset($_POST['login'])) {
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $userIP);
     $stmt->execute();
-    $num_rows = mysqli_num_rows($stmt);
+    $num_rows = $stmt->num_rows();
 
 
     if ($num_rows >= 3) {
