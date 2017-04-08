@@ -45,14 +45,14 @@
       <file leaf-file-name="login.func.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/functions/login.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="60" column="79" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+            <state relative-caret-position="432">
+              <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
               <folding>
-                <marker date="1491617386000" expanded="true" signature="428:468" ph="SELECT * FRO... ${$tbl_name2}" />
-                <marker date="1491617386000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
-                <marker date="1491617386000" expanded="true" signature="1188:1238" ph="SELECT userI... users" />
-                <marker date="1491617386000" expanded="true" signature="1630:1671" ph="SELECT activ... users" />
-                <marker date="1491617386000" expanded="true" signature="2707:2748" ph="INSERT INTO ipaddress... " />
+                <marker date="1491617495000" expanded="true" signature="428:468" ph="SELECT * FRO... ${$tbl_name2}" />
+                <marker date="1491617495000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
+                <marker date="1491617495000" expanded="true" signature="1188:1238" ph="SELECT userI... users" />
+                <marker date="1491617495000" expanded="true" signature="1630:1671" ph="SELECT activ... users" />
+                <marker date="1491617495000" expanded="true" signature="2707:2739" ph="INSERT INTO ipaddress... " />
               </folding>
             </state>
           </provider>
@@ -238,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="3751000" />
+      <workItem from="1491612515693" duration="3859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3751000" />
+    <option name="totallyTimeSpent" value="3859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1441" y="22" width="1919" height="1048" extended-state="6" />
@@ -332,14 +332,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/functions/login.func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="60" column="79" selection-start-line="60" selection-start-column="79" selection-end-line="60" selection-end-column="79" />
+        <state relative-caret-position="432">
+          <caret line="58" column="78" selection-start-line="58" selection-start-column="78" selection-end-line="58" selection-end-column="78" />
           <folding>
-            <marker date="1491617386000" expanded="true" signature="428:468" ph="SELECT * FRO... ${$tbl_name2}" />
-            <marker date="1491617386000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
-            <marker date="1491617386000" expanded="true" signature="1188:1238" ph="SELECT userI... users" />
-            <marker date="1491617386000" expanded="true" signature="1630:1671" ph="SELECT activ... users" />
-            <marker date="1491617386000" expanded="true" signature="2707:2748" ph="INSERT INTO ipaddress... " />
+            <marker date="1491617495000" expanded="true" signature="428:468" ph="SELECT * FRO... ${$tbl_name2}" />
+            <marker date="1491617495000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
+            <marker date="1491617495000" expanded="true" signature="1188:1238" ph="SELECT userI... users" />
+            <marker date="1491617495000" expanded="true" signature="1630:1671" ph="SELECT activ... users" />
+            <marker date="1491617495000" expanded="true" signature="2707:2739" ph="INSERT INTO ipaddress... " />
           </folding>
         </state>
       </provider>
