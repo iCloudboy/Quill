@@ -6,6 +6,7 @@
     <title>Sign up</title>
     <link rel="stylesheet" href="resources/assets/css/app.css">
     <?php include 'header.php'; ?>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
     <div class="register-wrapper">
@@ -153,7 +154,7 @@
                         </div>
 
                     </form>
-                    <img src="resources/assets/img/recaptcha.jpg"/>
+                    <div class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
                     <input type="submit" form="registerform" value="Create Account" name="new-user"/>
                 </div>
             </div>
