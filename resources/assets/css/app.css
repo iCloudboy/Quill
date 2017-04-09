@@ -40,10 +40,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 450px;
-    border: 1px solid green; }
+    width: 450px; }
     .head-container .head-right-container .head-registered {
-      border: 1px solid red;
       display: flex;
       justify-content: space-between;
       align-items: center; }
