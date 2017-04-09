@@ -63,7 +63,8 @@
       text-decoration: none; }
     .head-container .head-right-container .head-unregistered {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      border: 1px solid red; }
       .head-container .head-right-container .head-unregistered ul {
         display: flex;
         flex-direction: row;
