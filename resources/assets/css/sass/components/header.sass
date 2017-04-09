@@ -59,13 +59,50 @@
     display: flex
     align-items: center
     justify-content: space-between
-    width: 450px
+    width: 380px
     //border: 1px solid green
+
+    .head-unregistered
+      //border: 1px solid red
+      display: flex
+      justify-content: space-between
+      align-items: center
+
+      .header-notification
+        //border: 1px solid blue
+        width: 30px
+        height: 30px
+
+      .header-image
+        //border: 1px solid green
+        padding-left: 20px
+        width: 50px
+        height: 50px
+
 
 
 
     a
       text-decoration: none
+    .head-registered
+      display: flex
+      align-items: center
+      //border: 1px solid red
+
+      ul
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+        list-style: none
+
+        li
+          //padding: 0px 30px 0px 0px
+          font-size: 18px
+          font-weight: 500
+          color: #828282
+
     .head-unregistered
       display: flex
       align-items: center
@@ -74,11 +111,13 @@
       ul
         display: flex
         flex-direction: row
+        justify-content: center
+        align-items: center
         flex-wrap: wrap
         list-style: none
 
         li
-          padding: 0px 30px 0px 0px
+          //padding: 0px 30px 0px 0px
           font-size: 18px
           font-weight: 500
           color: #828282

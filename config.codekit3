@@ -27,22 +27,34 @@
 		"oAP": "\/.idea\/modules.xml",
 		"oF": 0
 		},
+	"\/.idea\/Quill.iml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/Quill.iml",
+		"oF": 0
+		},
+	"\/.idea\/vcs.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/watcherTasks.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/watcherTasks.xml",
 		"oF": 0
 		},
-	"\/.idea\/Website.iml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/Website.iml",
-		"oF": 0
-		},
 	"\/.idea\/workspace.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.idea\/workspace.xml",
+		"oF": 0
+		},
+	"\/activate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/activate.php",
 		"oF": 0
 		},
 	"\/app\/db.conn.pdo.php": {
@@ -63,6 +75,12 @@
 		"oAP": "\/app\/db.conn2.php",
 		"oF": 0
 		},
+	"\/app\/functions\/iptest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/iptest.php",
+		"oF": 0
+		},
 	"\/app\/functions\/login.func.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -73,6 +91,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/functions\/register.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/sendmail.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/sendmail.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/usercheck.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/usercheck.func.php",
 		"oF": 0
 		},
 	"\/build\/.gitignore": {
@@ -115,6 +145,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/login.php",
+		"oF": 0
+		},
+	"\/logout.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/logout.php",
+		"oF": 0
+		},
+	"\/mailtest.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mailtest.php",
 		"oF": 0
 		},
 	"\/register.php": {
@@ -211,6 +253,26 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/resources\/assets\/img\/notification.png": {
+		"ft": 32768,
+		"iS": 14602,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/notification.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/assets\/img\/placeholder.png": {
+		"ft": 32768,
+		"iS": 25834,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/placeholder.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/resources\/assets\/img\/recaptcha.jpg": {
 		"ft": 16384,
 		"iS": 59883,
@@ -267,7 +329,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 512046653,
-	"displayValue": "Website",
+	"displayValue": "Quill",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ceiling",
 	"lastBuiltDate": 512046667

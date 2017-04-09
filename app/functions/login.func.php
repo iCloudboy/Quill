@@ -26,7 +26,7 @@ if (isset($_POST['login'])) {
         $stmt->close();
         if (!empty($email) && !empty($password)) {
             //if (filter_var($email, FILTER_VALIDATE_EMAIL)) { //check for valid email address
-            if (strlen($email) <= 50) { //check that the email address is no more than 50 characters
+                if (strlen($email) <= 50) { //check that the email address is no more than 50 characters
                 if (strlen($password) <= 50) {
                     try {
                         $stmt = $conn->prepare("SELECT userID, password FROM users WHERE email = ?");
