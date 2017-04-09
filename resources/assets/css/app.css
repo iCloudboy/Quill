@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 380px; }
+    width: 450px; }
     .head-container .head-right-container .head-registered {
       display: flex;
       justify-content: space-between;
@@ -64,7 +64,8 @@
     .head-container .head-right-container .head-unregistered {
       display: flex;
       align-items: center;
-      border: 1px solid red; }
+      border: 1px solid red;
+      width: 400px; }
       .head-container .head-right-container .head-unregistered ul {
         display: flex;
         flex-direction: row;
@@ -73,6 +74,7 @@
         flex-wrap: wrap;
         list-style: none; }
         .head-container .head-right-container .head-unregistered ul li {
+          padding: 0px 30px 0px 0px;
           font-size: 18px;
           font-weight: 500;
           color: #828282; }
