@@ -69,8 +69,8 @@
       <file leaf-file-name="header.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="224">
+              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -412,12 +412,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="12787000" />
+      <workItem from="1491612515693" duration="12939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12787000" />
+    <option name="totallyTimeSpent" value="12939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -562,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="224">
+          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
           <folding />
         </state>
       </provider>
