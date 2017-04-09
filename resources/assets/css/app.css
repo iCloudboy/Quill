@@ -55,6 +55,7 @@
         flex-wrap: wrap;
         list-style: none; }
       .head-container .head-right-container .head-registered .header-notification {
+        padding-left: 50px;
         width: 30px;
         height: 30px; }
       .head-container .head-right-container .head-registered .header-image {
