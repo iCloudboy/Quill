@@ -40,7 +40,10 @@
                             <a href=\"register.php\"><li><img class='header-notification' src='resources/assets/img/notification.png'></li></a>
                             <a href=\"logout.php\"><li><img class='header-image' src='resources/assets/img/placeholder.png'></li></a>
                         </ul>
-                    </div>";
+                            <div class='header-image-menu'>
+                                
+                            </div>
+                      </div>";
             }
             ?>
             <div class="head-search">
