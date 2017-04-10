@@ -7,7 +7,8 @@ $(document).ready(function()
     $(".header-image").click(function()
     {
         var X=$(this).attr('id');
-        if(X===1) {
+        if(X===1)
+        {
             $(".header-image-menu").show();
             $(this).attr('id', '0');
         }
