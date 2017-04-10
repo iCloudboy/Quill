@@ -177,16 +177,6 @@
 		"oAP": "\/register.php",
 		"oF": 0
 		},
-	"\/resources\/assets\/css\/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/resources\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/resources\/assets\/css\/app.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -209,19 +199,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/resources\/assets\/css\/sass\/components\/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/resources\/assets\/css\/sass\/components\/header.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/resources\/assets\/css\/sass\/components\/header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
