@@ -77,6 +77,6 @@
     </div>
 
     <?php include 'footer.php'; ?>
-    <script type='text/javascript' src="resources/assets/js/app-min.js"> </script>
+    <script type='text/javascript' src="./resources/assets/js/app-min.js"> </script>
 </body>
 </html>
