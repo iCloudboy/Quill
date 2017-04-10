@@ -31,7 +31,7 @@
                     <div id="index-tattoo-container" class="col-md-4">
                         <div id="index-tattoo-image-wrapper" class="row">
                             <div id="index-tattoo-image" class="col-md-10">
-                                <img src="/resources/images/tattoo1.png">
+                                <img src="./resources/images/tattoo1.png">
                             </div>
 
                         </div>
