@@ -5,6 +5,7 @@
     <title>2NAME</title>
     <link rel="stylesheet" href="resources/assets/css/app.css">
     <?php include 'header.php'; ?>
+    <script type="text/javascript" src="/resources/vendors/js/jquery-3.2.0.min.js"></script>
 </head>
 <body>
     <div class="index-wrapper">
@@ -73,6 +74,6 @@
     </div>
 
     <?php include 'footer.php'; ?>
-
+    <script type='text/javascript' src="resources/assets/js/app-min.js"> </script>
 </body>
 </html>

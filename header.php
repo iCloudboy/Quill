@@ -1,14 +1,3 @@
-<? session_start(); ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="resources/assets/css/app.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-           rel="stylesheet">
-    <script type="text/javascript" src="/resources/vendors/js/jquery-3.2.0.min.js"></script>
-</head>
-<body>
     <div class="head-container">
         <div class="head-left-container">
             <div class="head-logo">
@@ -68,7 +57,3 @@
             ?>
     </div>
 
-    <script type='text/javascript' src="resources/assets/js/app-min.js"> </script>
-</body>
-
-</html>
