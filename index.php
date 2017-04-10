@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="resources/assets/css/app.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <script type="text/javascript" src="/resources/vendors/js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="./resources/vendors/js/jquery-3.2.0.min.js"></script>
 </head>
 <body>
     <?php include 'header.php'; ?>
