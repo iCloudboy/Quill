@@ -21,30 +21,35 @@
                 </ul>
             </div>
         </div>
-        <div class="head-right-container">
+
             <?php
             if (session_status() == PHP_SESSION_NONE) { //checks to see if a session has already been started before starting a new one.
                 session_start();
             }
             if (!isset($_SESSION['user'])){
-                echo "<div class=\"head-unregistered\">
-                        <ul>
-                            <a href=\"register.php\"><li>Sign up</li></a>
-                            <a href=\"login.php\"><li>Sign in</li></a>
-                        </ul>
+                echo "
+                    <div class=\"head-right-container\">
+                        <div class=\"head-unregistered\">
+                            <ul>
+                                <a href=\"register.php\"><li>Sign up</li></a>
+                                <a href=\"login.php\"><li>Sign in</li></a>
+                            </ul>
+                        </div>
                     </div>";
 
             } else {
-                echo "<div class=\"head-registered\">
-                        <ul>
-                            <a href=\"register.php\"><li><img class='header-notification' src='resources/assets/img/notification.png'></li></a>
-                            
-                            <a href=\"logout.php\"><li><img class='header-image' src='resources/assets/img/placeholder.png'></li></a>
-                            <div class='header-image-menu'>
-                                hi
-                            </div>
-                        </ul>
-                            
+                echo "
+                      <div class='head-right-container'>
+                          <div class=\"head-registered\">
+                            <ul>
+                                <a href=\"register.php\"><li><img class='header-notification' src='resources/assets/img/notification.png'></li></a>
+                                
+                                <a href=\"logout.php\"><li><img class='header-image' src='resources/assets/img/placeholder.png'></li></a>
+                                <div class='header-image-menu'>
+                                    hi
+                                </div>
+                            </ul>    
+                          </div>
                       </div>
                       ";
             }
@@ -52,7 +57,6 @@
             <div class="head-search">
                 <input type="text" placeholder="search">
             </div>
-        </div>
     </div>
 </body>
 </html>
