@@ -491,6 +491,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/testfile.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/testfile.php",
+		"oF": 0
 		}
 	},
 "hooks": [

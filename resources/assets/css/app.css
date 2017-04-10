@@ -140,26 +140,19 @@
       padding: 0px 0px 5px 0px;
       font-weight: 600; }
 
+/* tattoo listings section */
 .index-main {
   height: auto;
   background-color: #F8F8F8;
   padding: 100px 150px; }
-  .index-main .index-tattoo-showcase-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-grow: 1;
-    height: auto; }
-    .index-main .index-tattoo-showcase-wrapper .index-tattoo-wrapper-image {
-      width: 90%;
-      height: 80%;
-      background-color: red;
-      margin: 10px 15px 0px 15px; }
-      .index-main .index-tattoo-showcase-wrapper .index-tattoo-wrapper-image img {
-        width: 100%;
-        height: 100%; }
+  .index-main #index-tattoo-container #index-tattoo-wrapper-row {
+    border: 1px solid green;
+    padding: 20px; }
+    .index-main #index-tattoo-container #index-tattoo-wrapper-row #index-tattoo-wrapper {
+      background-color: white;
+      border: 1px solid red; }
 
+/* tattoo listings section */
 .register-wrapper {
   background-color: #F8F8F8;
   height: 800px;
@@ -359,7 +352,7 @@
         width: 200px; }
       .profile-wrapper .profile-form-wrapper .profile-form-wrapper-left h2 {
         padding-top: 5px;
-        padding-right: 40px;
+        padding-right: 140px;
         font-size: 28px;
         color: #FFDA96; }
     .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right {
