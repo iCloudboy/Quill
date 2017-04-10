@@ -19,20 +19,20 @@ $(document).ready(function()
         }
     });
 
-    $(".header-image-menu").mouseup(function()
-    {
-        return false;
-    });
-
-    $(".header-image").mouseup(function()
-    {
-        return false;
-    });
-
-    $(document).mouseup(function()
-    {
-        $(".header-image-menu").hide();
-        $(".header-image").attr('id', '');
-    });
+    // $(".header-image-menu").mouseup(function()
+    // {
+    //     return false;
+    // });
+    //
+    // $(".header-image").mouseup(function()
+    // {
+    //     return false;
+    // });
+    //
+    // $(document).mouseup(function()
+    // {
+    //     $(".header-image-menu").hide();
+    //     $(".header-image").attr('id', '');
+    // });
 
 });
