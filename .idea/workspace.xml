@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" afterPath="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" />
     </list>
     <ignored path="Quill.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="662">
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+            <state relative-caret-position="752">
+              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="93" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/app/functions/iptest.php" />
         <option value="$PROJECT_DIR$/app/db.conn.php" />
         <option value="$PROJECT_DIR$/app/functions/login.func.php" />
-        <option value="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" />
       </list>
     </option>
   </component>
@@ -425,12 +425,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="16071000" />
+      <workItem from="1491612515693" duration="16099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16071000" />
+    <option name="totallyTimeSpent" value="16099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1472" y="25" width="1919" height="1048" extended-state="0" />
@@ -568,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
@@ -588,6 +580,14 @@
             <marker date="1491823821000" expanded="true" signature="1378:1686" ph="..." />
             <marker date="1491823821000" expanded="true" signature="1798:1854" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="93" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
