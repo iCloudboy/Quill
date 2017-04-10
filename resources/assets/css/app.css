@@ -83,7 +83,6 @@
     .head-container .head-right-container .head-unregistered {
       display: flex;
       align-items: center;
-      border: 1px solid red;
       width: 400px; }
       .head-container .head-right-container .head-unregistered ul {
         display: flex;
