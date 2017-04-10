@@ -159,12 +159,6 @@
 		"oAP": "\/mailtest.php",
 		"oF": 0
 		},
-	"\/profile.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/profile.php",
-		"oF": 0
-		},
 	"\/quill.sql": {
 		"ft": 8192,
 		"oA": 2,
@@ -252,19 +246,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/resources\/assets\/css\/sass\/pages\/profile.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/resources\/assets\/css\/sass\/pages\/profile.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/resources\/assets\/css\/sass\/pages\/register.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -274,6 +255,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/resources\/assets\/css\/sass\/pages\/register.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/resources\/assets\/css\/sass\/pages\/settings.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -491,6 +485,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/settings.php",
+		"oF": 0
 		},
 	"\/testfile.php": {
 		"ft": 8192,

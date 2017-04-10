@@ -344,13 +344,13 @@
       .login-wrapper .login-form-wrapper .login-form-signup .login-highlight {
         color: #84E0D2; }
 
-.profile-wrapper {
+.settings-wrapper {
   background-color: #F8F8F8;
   height: 800px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .profile-wrapper .profile-form-wrapper {
+  .settings-wrapper .settings-form-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,7 +358,7 @@
     height: 600px;
     width: 1000px;
     border: 2px solid #E0E1E2; }
-    .profile-wrapper .profile-form-wrapper .profile-form-wrapper-left {
+    .settings-wrapper .settings-form-wrapper .settings-form-wrapper-left {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -366,76 +366,56 @@
       width: 40%;
       height: 80%;
       border-right: 1px solid #95989A; }
-      .profile-wrapper .profile-form-wrapper .profile-form-wrapper-left img {
+      .settings-wrapper .settings-form-wrapper .settings-form-wrapper-left img {
         margin-top: -60px;
         padding-right: 40px;
         height: 200px;
         width: 200px; }
-      .profile-wrapper .profile-form-wrapper .profile-form-wrapper-left h2 {
+      .settings-wrapper .settings-form-wrapper .settings-form-wrapper-left h2 {
         padding-top: 5px;
         padding-right: 140px;
         font-size: 28px;
         color: #FFDA96; }
-    .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right {
+    .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right {
       display: flex;
       align-items: center;
       flex-direction: column;
       width: 40%;
       height: 80%; }
-      .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-title {
+      .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-title {
         padding-bottom: 20px; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-title h2 {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-title h2 {
           padding-left: 70px;
           color: #95989A;
           font-size: 20px; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-title .profile-highlight {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-title .settings-highlight {
           color: #84E0D2; }
-      .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form {
+      .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 400px;
         margin-left: 80px;
         margin-top: 20px; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form form {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form {
           display: flex;
-          justify-content: space-between;
-          width: 100%; }
-          .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form form h3 {
+          border: 1px solid blue; }
+          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form .settings-form-submit {
+            align-self: flex-end; }
+          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form h3 {
             color: #95989A;
             font-size: 18px;
             font-weight: normal; }
-          .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form form input {
-            margin-top: 10px;
-            margin-bottom: 25px;
-            border: 1px solid #95989A;
-            width: 175px;
-            height: 30px;
-            background-color: #FFFFFF;
-            box-shadow: none;
-            color: #000000;
-            font-size: 14px; }
-          .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form form .dob-select {
+          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form .dob-select {
             margin-top: 10px;
             margin-bottom: 25px;
             height: 30px;
             background-color: #ffffff; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form img {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form img {
           width: 200px;
           height: 50px;
           margin-bottom: 20px; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form input {
-          width: 175px;
-          height: 35px;
-          background-color: #FFDA96;
-          color: #FFFFFF;
-          font-family: "Helvetica Neue";
-          font-size: 18px;
-          border: none;
-          box-shadow: 0px 3px 6px #E1E1E1; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form .profile-form-left {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-form-left {
           width: 45%; }
-        .profile-wrapper .profile-form-wrapper .profile-form-wrapper-right .profile-form-wrapper-right-form .profile-form-right {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-form-right {
           width: 45%;
           align-self: flex-end; }
