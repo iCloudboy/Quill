@@ -26,7 +26,14 @@
                 </div>
 
                 <div class="profile-form-wrapper-right-form">
-                   hi
+                   <form>
+                       <h3>First Name</h3>
+                       <input type="text" id="firstname" name="firstname" maxlength="20">
+                       <h3>Email</h3>
+                       <input type="text" id="email" name="email" maxlength="50">
+                       <h3>Password</h3>
+                       <input type="password" id="password" name="password" maxlength="50">
+                   </form>
                 </div>
             </div>
         </div>
