@@ -60,11 +60,24 @@
           padding-left: 20px;
           width: 50px;
           height: 50px; }
-        .head-container .head-right-container .head-registered ul .header-image-menu {
-          position: absolute;
-          height: 100px;
-          width: 50px;
-          border: 1px solid blue; }
+      .head-container .head-right-container .head-registered .header-image-menu {
+        display: none;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: 105px;
+        z-index: 999;
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        background-color: #f8f8f8; }
+        .head-container .head-right-container .head-registered .header-image-menu ul {
+          display: flex;
+          flex-direction: column; }
+          .head-container .head-right-container .head-registered .header-image-menu ul a {
+            text-decoration: none;
+            color: #828282; }
+            .head-container .head-right-container .head-registered .header-image-menu ul a li {
+              padding-bottom: 20px; }
     .head-container .head-right-container a {
       text-decoration: none; }
     .head-container .head-right-container .head-unregistered {

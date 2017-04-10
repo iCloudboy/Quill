@@ -51,6 +51,12 @@
 		"oAP": "\/.idea\/workspace.xml",
 		"oF": 0
 		},
+	"\/.idea\/workspace.xml___jb_tmp___": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/workspace.xml___jb_tmp___",
+		"oF": 0
+		},
 	"\/activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -129,12 +135,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/individual_2017-03-29.sql": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/individual_2017-03-29.sql",
-		"oF": 0
-		},
 	"\/kek.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -157,6 +157,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/mailtest.php",
+		"oF": 0
+		},
+	"\/quill.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/quill.sql",
 		"oF": 0
 		},
 	"\/register.php": {
@@ -292,6 +298,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/resources\/assets\/js\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/js\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/resources\/assets\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/js\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/resources\/images\/tattoo1.png": {
 		"ft": 32768,
 		"iS": 33867,
@@ -321,6 +345,15 @@
 		"oF": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/resources\/vendors\/js\/jquery-3.2.0.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/resources\/vendors\/js\/jquery-3.2.0.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		}
 	},
 "hooks": [

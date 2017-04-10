@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="resources/assets/css/app.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
            rel="stylesheet">
+    <script type="text/javascript" src="/resources/vendors/js/jquery-3.2.0.min.js"></script>
 </head>
 <body>
     <div class="head-container">
@@ -35,6 +36,9 @@
                                 <a href=\"login.php\"><li>Sign in</li></a>
                             </ul>
                         </div>
+                        <div class=\"head-search\">
+                            <input type=\"text\" placeholder=\"search\">
+                        </div>
                     </div>";
 
             } else {
@@ -44,20 +48,27 @@
                             <ul>
                                 <a href=\"register.php\"><li><img class='header-notification' src='resources/assets/img/notification.png'></li></a>
                                 
-                                <a href=\"logout.php\"><li><img class='header-image' src='resources/assets/img/placeholder.png'></li></a>
+                                <li><img class='header-image' src='resources/assets/img/placeholder.png'></li>
                                 
                             </ul>    
                             <div class='header-image-menu'>
-                                    hi
+                                    <ul>
+                                        <a href='profile.php'><li>My Profile</li></a>
+                                        <a href='settings.php'><li>Account Settings</li></a>
+                                        <a href='logout.php'><li>Logout</li></a>
+                                    </ul>
                             </div>
+                          </div>
+                          <div class=\"head-search\">
+                                <input type=\"text\" placeholder=\"search\">
                           </div>
                       </div>
                       ";
             }
             ?>
-            <div class="head-search">
-                <input type="text" placeholder="search">
-            </div>
     </div>
+
+    <script type='text/javascript' src="resources/assets/js/app-min.js"> </script>
 </body>
+
 </html>
