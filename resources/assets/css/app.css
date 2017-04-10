@@ -44,7 +44,8 @@
     .head-container .head-right-container .head-registered {
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      width: 200px; }
       .head-container .head-right-container .head-registered ul {
         display: flex;
         flex-direction: row;
@@ -54,8 +55,8 @@
         list-style: none; }
         .head-container .head-right-container .head-registered ul .header-notification {
           padding-left: 50px;
-          width: 30px;
-          height: 30px; }
+          width: 40px;
+          height: 40px; }
         .head-container .head-right-container .head-registered ul .header-image {
           padding-left: 20px;
           width: 50px;
@@ -146,27 +147,29 @@
   background-color: #F8F8F8;
   width: 100%;
   padding: 100px; }
-  #index-main #index-tattoo-container #index-tattoo-image-wrapper {
-    display: flex;
-    justify-content: center; }
-    #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image {
-      padding-top: 15px;
-      padding-bottom: 15px;
+  #index-main #index-tattoo-container {
+    padding-top: 30px; }
+    #index-main #index-tattoo-container #index-tattoo-image-wrapper {
       display: flex;
-      align-self: center;
-      background: white; }
-      #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image img {
-        width: 100%; }
-  #index-main #index-tattoo-container #index-tattoo-social-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 18px; }
-    #index-main #index-tattoo-container #index-tattoo-social-wrapper #index-tattoo-social {
+      justify-content: center; }
+      #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        align-self: center;
+        background: white; }
+        #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image img {
+          width: 100%; }
+    #index-main #index-tattoo-container #index-tattoo-social-wrapper {
       display: flex;
       justify-content: flex-end;
-      background-color: white;
-      padding-right: 20px;
-      text-align: right; }
+      margin-right: 18px; }
+      #index-main #index-tattoo-container #index-tattoo-social-wrapper #index-tattoo-social {
+        display: flex;
+        justify-content: flex-end;
+        background-color: white;
+        padding-right: 20px;
+        text-align: right; }
 
 /* tattoo listings section */
 .register-wrapper {
