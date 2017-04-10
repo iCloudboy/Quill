@@ -23,79 +23,93 @@
                 <li>Recent</li>
             </ul>
         </div>
-        <div class="index-main">
-            <div id="index-tattoo-container" class="container">
-                <div id="index-tattoo-wrapper-row" class="row justify-content-center">
-                    <div id="index-tattoo-wrapper" class="col-md-3">
-                        <div class="row">
-                            <img src="resources/images/tattoo3.png"/>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
-                        </div>
-                    </div>
-                    <div id="index-tattoo-wrapper" class="col-md-3">
-                        <div class="row">
-                            <img src="resources/images/tattoo1.png"/>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
-                        </div>
-
-                    </div>
-                    <div id="index-tattoo-wrapper" class="col-md-3">
-<!--                        <div class="row">-->
-<!--                            <img src="resources/images/tattoo2.png"/>-->
-<!--                        </div>-->
-                        hi
-                        <div class="row justify-content-center">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
-                        </div>
-                    </div>
-                </div>
+        <div id="index-main">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-3 offset-md-1">
-                        <div class="row">
-                            <img src="resources/images/tattoo3.png"/>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 offset-md-1">
-                        <div class="row">
-                            <img src="resources/images/tattoo1.png"/>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
-                        </div>
+                    <div id="index-tattoo-container" class="col-md-4">
+                        <div id="index-tattoo-image-wrapper" class="row">
+                            <div id="index-tattoo-image" class="col-md-10">
+                                <img src="/resources/images/tattoo1.png">
+                            </div>
 
+                        </div>
+                        <div id="index-tattoo-social-wrapper" class="row">
+
+                            <div id="index-tattoo-social" class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="material-icons">remove_red_eye</i>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>22,000</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="index-tattoo-social" class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="material-icons">comment</i>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>24</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="index-tattoo-social" class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <i class="material-icons">favorite</i>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p>254</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div id="index-tattoo-social" class="col-md-2">
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <img src="resources/images/tattoo2.png"/>
+                    <div id="index-tattoo-container" class="col-md-4">
+                        <div id="index-tattoo-image-wrapper" class="row">
+                            <div id="index-tattoo-image" class="col-md-10">
+                                <img src="/resources/images/tattoo1.png">
+                            </div>
+
                         </div>
                         <div class="row">
-                            <div class="col-md-4"><i class="material-icons">remove_red_eye</i> <p>22,000</p></div>
-                            <div class="col-md-4"><i class="material-icons">comment</i> <p>24</p></div>
-                            <div class="col-md-4"><i class="material-icons">favorite</i> <p>254</p></div>
+                            <div class="col-md-6">
+                                <p> this is where the links will go</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p> this is where the links will go</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="index-tattoo-container" class="col-md-4">
+                        <div id="index-tattoo-image-wrapper" class="row">
+                            <div id="index-tattoo-image" class="col-md-10">
+                                <img src="/resources/images/tattoo1.png">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p> this is where the links will go</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p> this is where the links will go</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-
+            </div>
         </div>
     </div>
 

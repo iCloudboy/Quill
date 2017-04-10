@@ -142,16 +142,32 @@
       font-weight: 600; }
 
 /* tattoo listings section */
-.index-main {
+#index-main {
   height: auto;
   background-color: #F8F8F8;
-  padding: 100px 150px; }
-  .index-main #index-tattoo-container #index-tattoo-wrapper-row {
-    border: 1px solid green;
-    padding: 20px; }
-    .index-main #index-tattoo-container #index-tattoo-wrapper-row #index-tattoo-wrapper {
+  width: 100%;
+  padding: 100px; }
+  #index-main #index-tattoo-container #index-tattoo-image-wrapper {
+    display: flex;
+    justify-content: center; }
+    #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
+      align-self: center;
+      background: white; }
+      #index-main #index-tattoo-container #index-tattoo-image-wrapper #index-tattoo-image img {
+        width: 100%; }
+  #index-main #index-tattoo-container #index-tattoo-social-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18px; }
+    #index-main #index-tattoo-container #index-tattoo-social-wrapper #index-tattoo-social {
+      display: flex;
+      justify-content: flex-end;
       background-color: white;
-      border: 1px solid red; }
+      padding-right: 20px;
+      text-align: right; }
 
 /* tattoo listings section */
 .register-wrapper {
