@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>2NAME</title>
     <link rel="stylesheet" href="resources/assets/css/app.css">
-    <link href="resources/vendors/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./resources/vendors/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>`
