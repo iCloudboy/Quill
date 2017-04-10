@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" afterPath="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" />
     </list>
     <ignored path="Quill.iws" />
@@ -54,14 +57,14 @@
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="662">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
-                <marker date="1491823821000" expanded="true" signature="1040:1271" ph="..." />
-                <marker date="1491823821000" expanded="true" signature="1069:1244" ph="..." />
-                <marker date="1491823821000" expanded="true" signature="1349:1716" ph="..." />
-                <marker date="1491823821000" expanded="true" signature="1349:1744" ph="..." />
-                <marker date="1491823821000" expanded="true" signature="1378:1686" ph="..." />
-                <marker date="1491823821000" expanded="true" signature="1798:1854" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1040:1271" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1069:1244" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1349:1875" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1349:1903" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1378:1845" ph="..." />
+                <marker date="1491823966000" expanded="true" signature="1745:1815" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,8 +73,8 @@
       <file leaf-file-name="header.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="93" selection-end-column="28" />
+            <state relative-caret-position="728">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -425,12 +428,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="16099000" />
+      <workItem from="1491612515693" duration="16262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16099000" />
+    <option name="totallyTimeSpent" value="16262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1472" y="25" width="1919" height="1048" extended-state="0" />
@@ -571,22 +574,22 @@
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
-            <marker date="1491823821000" expanded="true" signature="1040:1271" ph="..." />
-            <marker date="1491823821000" expanded="true" signature="1069:1244" ph="..." />
-            <marker date="1491823821000" expanded="true" signature="1349:1716" ph="..." />
-            <marker date="1491823821000" expanded="true" signature="1349:1744" ph="..." />
-            <marker date="1491823821000" expanded="true" signature="1378:1686" ph="..." />
-            <marker date="1491823821000" expanded="true" signature="1798:1854" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1040:1271" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1069:1244" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1349:1875" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1349:1903" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1378:1845" ph="..." />
+            <marker date="1491823966000" expanded="true" signature="1745:1815" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="93" selection-end-column="28" />
+        <state relative-caret-position="728">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
           <folding />
         </state>
       </provider>

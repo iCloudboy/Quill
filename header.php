@@ -38,13 +38,15 @@
                 echo "<div class=\"head-registered\">
                         <ul>
                             <a href=\"register.php\"><li><img class='header-notification' src='resources/assets/img/notification.png'></li></a>
+                            
                             <a href=\"logout.php\"><li><img class='header-image' src='resources/assets/img/placeholder.png'></li></a>
+                            <div class='header-image-menu'>
+                                hi
+                            </div>
                         </ul>
                             
                       </div>
-                      <div class='header-image-menu'>
-                        hi
-                      </div>";
+                      ";
             }
             ?>
             <div class="head-search">
