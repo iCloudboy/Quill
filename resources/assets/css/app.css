@@ -53,12 +53,13 @@
         align-items: center;
         flex-wrap: wrap;
         list-style: none; }
+        .head-container .head-right-container .head-registered ul li {
+          margin-left: 30px; }
         .head-container .head-right-container .head-registered ul .header-notification {
-          padding-left: 50px;
+          padding-right: 0px;
           width: 40px;
           height: 40px; }
         .head-container .head-right-container .head-registered ul .header-image {
-          padding-left: 20px;
           width: 50px;
           height: 50px; }
       .head-container .head-right-container .head-registered .header-image-menu {
