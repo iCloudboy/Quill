@@ -4,8 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Account Settings</title>
-        <link rel="stylesheet" href="resources/assets/css/app.css">
+
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="resources/assets/css/app.css">
         <?php include 'header.php'; ?>
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
@@ -17,13 +18,19 @@
                     <img src="resources/images/me.jpg"/>
                 </div>
                 <div class="settings-form-wrapper-left-text">
-                    <h2>Join the community</h2>
+                    <form>
+                        <div class="form-group">
+                            <div class="col-md-4">
+                                <input id="filebutton" name="filebutton" class="input-file" type="file">
+                            </div>
+                        </div>
+                    </form>
                 </div>
 
             </div>
             <div class="settings-form-wrapper-right">
                 <div class="settings-form-wrapper-right-title">
-                    <h2>Update your <span class="settings-highlight">settings details</span></h2>
+                    <h2>Update your <span class="settings-highlight">account details</span></h2>
                 </div>
 
                 <div class="settings-form-wrapper-right-form">
@@ -81,8 +88,9 @@
 
                             <!-- Submit -->
                             <div class="form-group">
-                                <div id="settings-form-submit" class="col-md-4 flex-last">
-                                    <input type="submit" value="Update Details" name="new-user"/>
+                                <div class="col-md-8"></div>
+                                <div id="settings-form-submit" class="col-md-4" style="text-align: right;">
+                                    <button type="submit" id="settings-submit-button" name="submit" class="btn btn-primary flex-last">Submit</button>
                                 </div>
                             </div>
                     </form>

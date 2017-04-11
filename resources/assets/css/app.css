@@ -367,12 +367,10 @@
       height: 80%;
       border-right: 1px solid #95989A; }
       .settings-wrapper .settings-form-wrapper .settings-form-wrapper-left img {
-        margin-top: -60px;
-        padding-right: 40px;
+        margin-right: 80px;
         height: 200px;
         width: 200px; }
       .settings-wrapper .settings-form-wrapper .settings-form-wrapper-left h2 {
-        padding-top: 5px;
         padding-right: 140px;
         font-size: 28px;
         color: #FFDA96; }
@@ -396,16 +394,15 @@
         width: 400px;
         margin-left: 80px;
         margin-top: 20px; }
-        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form {
-          display: flex;
-          border: 1px solid blue; }
-          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form .settings-form-submit {
-            align-self: flex-end; }
-          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form h3 {
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form #settings-submit-button {
+          background-color: #FFDA96;
+          border: none;
+          color: white; }
+          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form #settings-submit-button h3 {
             color: #95989A;
             font-size: 18px;
             font-weight: normal; }
-          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-update-form .dob-select {
+          .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form #settings-submit-button .dob-select {
             margin-top: 10px;
             margin-bottom: 25px;
             height: 30px;

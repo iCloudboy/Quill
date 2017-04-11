@@ -105,6 +105,12 @@
 		"oAP": "\/app\/functions\/sendmail.func.php",
 		"oF": 0
 		},
+	"\/app\/functions\/settingsprocess.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/settingsprocess.func.php",
+		"oF": 0
+		},
 	"\/app\/functions\/usercheck.func.php": {
 		"ft": 8192,
 		"oA": 2,
