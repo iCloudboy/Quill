@@ -53,12 +53,12 @@
           <file leaf-file-name="settingsprocess.func.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+                <state relative-caret-position="336">
+                  <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
                   <folding>
-                    <marker date="1491889116000" expanded="true" signature="2178:2221" ph="SELECT passw... users" />
-                    <marker date="1491889116000" expanded="true" signature="3859:4151" ph="UPDATE users... " />
-                    <marker date="1491889116000" expanded="true" signature="4922:5200" ph="UPDATE users... " />
+                    <marker date="1491889205000" expanded="true" signature="2178:2221" ph="SELECT passw... users" />
+                    <marker date="1491889205000" expanded="true" signature="3865:4157" ph="UPDATE users... " />
+                    <marker date="1491889205000" expanded="true" signature="4928:5206" ph="UPDATE users... " />
                   </folding>
                 </state>
               </provider>
@@ -509,12 +509,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="51215000" />
+      <workItem from="1491612515693" duration="51293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51215000" />
+    <option name="totallyTimeSpent" value="51293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1462" y="22" width="1919" height="1048" extended-state="0" />
@@ -865,12 +865,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
+        <state relative-caret-position="336">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
           <folding>
-            <marker date="1491889116000" expanded="true" signature="2178:2221" ph="SELECT passw... users" />
-            <marker date="1491889116000" expanded="true" signature="3859:4151" ph="UPDATE users... " />
-            <marker date="1491889116000" expanded="true" signature="4922:5200" ph="UPDATE users... " />
+            <marker date="1491889205000" expanded="true" signature="2178:2221" ph="SELECT passw... users" />
+            <marker date="1491889205000" expanded="true" signature="3865:4157" ph="UPDATE users... " />
+            <marker date="1491889205000" expanded="true" signature="4928:5206" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>

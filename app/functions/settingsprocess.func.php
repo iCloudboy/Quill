@@ -43,7 +43,7 @@ if (isset($_POST['settings-submit'])){
                                                     if ($stmt->fetch()) {
                                                         //hash the entered password and check if it matches the hashed password in the database.
                                                         $passwordHashed = password_hash($password, PASSWORD_DEFAULT);
-                                                        echo $dbPasswordHashed;
+                                                        echo $dbPasswordHashed"\n\n";
                                                         echo $passwordHashed;
 //                                                        if ($passwordHashed === $dbPasswordHashed) {
 //                                                            $stmt->close();
