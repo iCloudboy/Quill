@@ -85,12 +85,21 @@
                                     <textarea class="form-control" id="about" name="about"></textarea>
                                 </div>
                             </div>
+                            <!-- google Captcha -->
+                            <div class="form-group">
+                                <div class="col-md-2">
 
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
+                                </div>
+                            </div>
                             <!-- Submit -->
                             <div class="form-group">
-                                <div class="col-md-8"></div>
-                                <div id="settings-form-submit" class="col-md-4" style="text-align: right;">
-                                    <button type="submit" id="settings-submit-button" name="submit" class="btn btn-primary flex-last">Submit</button>
+                                <div class="col-md-8">
+                                </div>
+                                <div id="settings-form-submit" class="col-md-4">
+                                    <button type="submit" id="settings-submit-button" name="settings-submit" class="btn btn-primary flex-last">Submit</button>
                                 </div>
                             </div>
                     </form>
