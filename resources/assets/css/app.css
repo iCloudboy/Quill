@@ -386,6 +386,11 @@
           padding-left: 70px;
           color: #95989A;
           font-size: 20px; }
+        .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-title p {
+          padding-top: 30px;
+          padding-left: 70px;
+          margin-bottom: -20px;
+          text-align: center; }
         .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-title .settings-highlight {
           color: #84E0D2; }
       .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form {

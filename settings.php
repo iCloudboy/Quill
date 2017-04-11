@@ -31,19 +31,17 @@
             <div class="settings-form-wrapper-right">
                 <div class="settings-form-wrapper-right-title">
                     <h2>Update your <span class="settings-highlight">account details</span></h2>
+                    <p><b>* = required</b></p>
                 </div>
 
                 <div class="settings-form-wrapper-right-form">
-                    <form id="settings-update-form" action="./app/functions/settingsprocess.func.php"class="form-horizontal">
+                    <form id="settings-update-form" action="./app/functions/settingsprocess.func.php" method="POST" class="form-horizontal">
                             <?php include './app/db.conn.php';	// make db connection ?>
                             <!-- Email address-->
                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="email">Email Address</label>
+                                <label class="col-md-4 control-label" for="email">Email Address*</label>
                                 <div class="col-md-8">
-                                    <?php
-                                    ?>
-                                    <input id="email" name="email" type="text" placeholder="" class="form-control input-md">
-
+                                        <input id= "email" name="email" type="text" placeholder="" class="form-control input-md">
                                 </div>
                             </div>
 
@@ -101,7 +99,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-md-2"></div>
-                                    <label style="text-align: center;" class="col-md-8 control-label" for="password">Enter password to confirm changes</label>
+                                    <label style="text-align: center;" class="col-md-8 control-label" for="password">Enter password to confirm changes*</label>
                                     <div class="col-md-2"> </div>
                                 </div>
                                 <div class="row">

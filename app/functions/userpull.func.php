@@ -1,13 +1,11 @@
 <?php
-include '../db.conn.php';	// make db connection
-session_start();
 
 if (isset($_SESSION['user'])) {
     $userID = $_SESSION['user'];
-    if ($stmt = $mysqli->prepare("SELECT email, password, location, studio, role, about FROM users WHERE userID = ?")) {
+    if ($stmt = $conn->prepare("SELECT email, location, studio, role, about FROM users WHERE userID = ?")) {
         $stmt->bind_param("s", $userID);
         $stmt->execute();
-        $stmt->bind_result($email, $password, );
+        $stmt->bind_result($email, $location, $studio, $role, $about);
 
     }
 } else {
