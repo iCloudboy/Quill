@@ -23,13 +23,13 @@ if (isset($_POST['settings-submit'])){
         if($responseData->success) {
             if(!empty($email) && !empty($password)){
                 //string length and character checks.
-                if (preg_match("/^[a-zA-Z' -]+$/", $location)) {
+                //if (preg_match("/^[a-zA-Z' -]+$/", $location)) {
                     if (strlen($location) <= 50) {
-                        if (preg_match("/^[a-zA-Z' -]+$/", $studio)) {
+                        //if (preg_match("/^[a-zA-Z' -]+$/", $studio)) {
                             if (strlen($studio) <= 50) {
-                                if (preg_match("/^[a-zA-Z' -]+$/", $role)) {
+                                //if (preg_match("/^[a-zA-Z' -]+$/", $role)) {
                                     if (strlen($role) <= 50) {
-                                        if (preg_match("/^[a-zA-Z' `-]+$/", $about)) {
+                                        //if (preg_match("/^[a-zA-Z' `-]+$/", $about)) {
                                             if (strlen($role) <= 255) {
                                                 if ($newPassword === $newPasswordConfirm) { //check if new passwords match
                                                     try {
@@ -86,48 +86,48 @@ if (isset($_POST['settings-submit'])){
                                                 //header("Refresh:3; url=../../settings.php");
                                                 exit();
                                             }
-                                        } else {
-                                            $_SESSION['settings_error'] = "About can only contain letters, hyphens and whitespace. Please try again.";
-                                            print_r($_SESSION['settings_error']);
-                                            //header("Refresh:3; url=../../settings.php");
-                                            exit();
-                                        }
+//                                        } else {
+//                                            $_SESSION['settings_error'] = "About can only contain letters, hyphens and whitespace. Please try again.";
+//                                            print_r($_SESSION['settings_error']);
+//                                            //header("Refresh:3; url=../../settings.php");
+//                                            exit();
+//                                        }
                                     } else {
                                         $_SESSION['settings_error'] = "Role must be under 50 characters. Please try again.";
                                         print_r($_SESSION['settings_error']);
                                         //header("Refresh:3; url=../../settings.php");
                                         exit();
                                     }
-                                } else {
-                                    $_SESSION['settings_error'] = "Role can only contain letters, hyphens and whitespace. Please try again.";
-                                    print_r($_SESSION['settings_error']);
-                                    //header("Refresh:3; url=../../settings.php");
-                                    exit();
-                                }
+//                                } else {
+//                                    $_SESSION['settings_error'] = "Role can only contain letters, hyphens and whitespace. Please try again.";
+//                                    print_r($_SESSION['settings_error']);
+//                                    //header("Refresh:3; url=../../settings.php");
+//                                    exit();
+//                                }
                             } else {
                                 $_SESSION['settings_error'] = "Studio must be under 50 characters. Please try again.";
                                 print_r($_SESSION['settings_error']);
                                 //header("Refresh:3; url=../../settings.php");
                                 exit();
                             }
-                        } else {
-                            $_SESSION['settings_error'] = "Studio can only contain letters, hyphens and whitespace. Please try again.";
-                            print_r($_SESSION['settings_error']);
-                            //header("Refresh:3; url=../../settings.php");
-                            exit();
-                        }
+//                        } else {
+//                            $_SESSION['settings_error'] = "Studio can only contain letters, hyphens and whitespace. Please try again.";
+//                            print_r($_SESSION['settings_error']);
+//                            //header("Refresh:3; url=../../settings.php");
+//                            exit();
+//                        }
                     } else {
                         $_SESSION['settings_error'] = "Location must be under 50 characters. Please try again.";
                         print_r($_SESSION['settings_error']);
                         //header("Refresh:3; url=../../settings.php");
                         exit();
                     }
-                } else {
-                    $_SESSION['settings_error'] = "Location can only contain letters, hyphens and whitespace. Please try again.";
-                    print_r($_SESSION['settings_error']);
-                    //header("Refresh:3; url=../../settings.php");
-                    exit();
-                }
+//                } else {
+//                    $_SESSION['settings_error'] = "Location can only contain letters, hyphens and whitespace. Please try again.";
+//                    print_r($_SESSION['settings_error']);
+//                    //header("Refresh:3; url=../../settings.php");
+//                    exit();
+//                }
             } else {
                 $_SESSION['settings_error'] = "You have left a required field blank. Please fill out the required fields.";
                 print_r($_SESSION['settings_error']);
