@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" afterPath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/userpull.func.php" afterPath="$PROJECT_DIR$/app/functions/userpull.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" afterPath="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.php" afterPath="$PROJECT_DIR$/settings.php" />
     </list>
     <ignored path="Quill.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,21 +50,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settingsprocess.func.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="settingsprocess.func.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+                <state relative-caret-position="528">
+                  <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
                   <folding>
-                    <marker date="1491885300000" expanded="true" signature="2165:2208" ph="SELECT passw... users" />
-                    <marker date="1491885300000" expanded="true" signature="3605:3894" ph="UPDATE users... " />
-                    <marker date="1491885300000" expanded="true" signature="4646:4921" ph="UPDATE users... " />
+                    <marker date="1491885511000" expanded="true" signature="2170:2213" ph="SELECT passw... users" />
+                    <marker date="1491885511000" expanded="true" signature="3610:3899" ph="UPDATE users... " />
+                    <marker date="1491885511000" expanded="true" signature="4651:4926" ph="UPDATE users... " />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/settings.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="542">
@@ -241,8 +236,8 @@
         <option value="$PROJECT_DIR$/resources/assets/css/app.sass" />
         <option value="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" />
         <option value="$PROJECT_DIR$/app/functions/userpull.func.php" />
-        <option value="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
         <option value="$PROJECT_DIR$/settings.php" />
+        <option value="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
       </list>
     </option>
   </component>
@@ -536,12 +531,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="48961000" />
+      <workItem from="1491612515693" duration="49077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48961000" />
+    <option name="totallyTimeSpent" value="49077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1462" y="22" width="1919" height="1048" extended-state="0" />
@@ -849,18 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <marker date="1491885300000" expanded="true" signature="2165:2208" ph="SELECT passw... users" />
-            <marker date="1491885300000" expanded="true" signature="3605:3894" ph="UPDATE users... " />
-            <marker date="1491885300000" expanded="true" signature="4646:4921" ph="UPDATE users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -890,6 +873,18 @@
             <marker date="1491885394000" expanded="true" signature="6521:6929" ph="..." />
             <marker date="1491885394000" expanded="true" signature="6576:6615" ph="..." />
             <marker date="1491885394000" expanded="true" signature="6696:6894" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+          <folding>
+            <marker date="1491885511000" expanded="true" signature="2170:2213" ph="SELECT passw... users" />
+            <marker date="1491885511000" expanded="true" signature="3610:3899" ph="UPDATE users... " />
+            <marker date="1491885511000" expanded="true" signature="4651:4926" ph="UPDATE users... " />
           </folding>
         </state>
       </provider>

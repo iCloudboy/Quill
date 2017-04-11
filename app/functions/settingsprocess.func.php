@@ -23,13 +23,13 @@ if (isset($_POST['settings-submit'])){
         if($responseData->success) {
             if(!empty($email) && !empty($password)){
                 //string length and character checks.
-                if (preg_match("/^[a-zA-Z'-]+$/", $location)) {
+                if (preg_match("/^[a-zA-Z' -]+$/", $location)) {
                     if (strlen($location) <= 50) {
-                        if (preg_match("/^[a-zA-Z'-]+$/", $studio)) {
+                        if (preg_match("/^[a-zA-Z' -]+$/", $studio)) {
                             if (strlen($studio) <= 50) {
-                                if (preg_match("/^[a-zA-Z'-]+$/", $role)) {
+                                if (preg_match("/^[a-zA-Z' -]+$/", $role)) {
                                     if (strlen($role) <= 50) {
-                                        if (preg_match("/^[a-zA-Z'-]+$/", $about)) {
+                                        if (preg_match("/^[a-zA-Z' `-]+$/", $about)) {
                                             if (strlen($role) <= 255) {
                                                 if ($newPassword === $newPasswordConfirm) { //check if new passwords match
                                                     try {
