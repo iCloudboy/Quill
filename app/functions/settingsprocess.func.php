@@ -43,37 +43,39 @@ if (isset($_POST['settings-submit'])){
                                                     if ($stmt->fetch()) {
                                                         //hash the entered password and check if it matches the hashed password in the database.
                                                         $passwordHashed = password_hash($password, PASSWORD_DEFAULT);
-                                                        if ($passwordHashed === $dbPasswordHashed) {
-                                                            $stmt->close();
-                                                            if (!empty($newPassword)){ //if the user has entered a new password, update it along with the rest of the form.
-                                                                $newPasswordHashed = password_hash($newPassword, PASSWORD_DEFAULT);
-                                                                try {
-                                                                    $stmt2 = $conn->prepare("UPDATE users 
-                                                                                            SET email = ?, password = ?, location = ?, studio = ?, role = ?, about = ?
-                                                                                            WHERE userID = ?");
-                                                                    $stmt2->bind_param('ssssssi', $email, $newPasswordHashed, $location, $studio, $role, $about, $userID);
-                                                                    $stmt2->execute();
-                                                                } catch (PDOException $e) {
-                                                                    echo "Error: " . $e->getMessage();
-                                                                }
-                                                            } else {
-                                                                try {
-                                                                    $stmt2 = $conn->prepare("UPDATE users 
-                                                                                            SET email = ?, location = ?, studio = ?, role = ?, about = ?
-                                                                                            WHERE userID = ?");
-                                                                    $stmt2->bind_param('sssssi', $email, $location, $studio, $role, $about, $userID);
-                                                                    $stmt2->execute();
-                                                                } catch (PDOException $e) {
-                                                                    echo "Error: " . $e->getMessage();
-                                                                }
-                                                            }
-
-                                                        } else {
-                                                            $_SESSION['settings_error'] = "Incorrect password. Please try again.";
-                                                            print_r($_SESSION['settings_error']);
-                                                            //header("Refresh:3; url=../../settings.php");
-                                                            exit();
-                                                        }
+                                                        echo $dbPasswordHashed;
+                                                        echo $passwordHashed;
+//                                                        if ($passwordHashed === $dbPasswordHashed) {
+//                                                            $stmt->close();
+//                                                            if (!empty($newPassword)){ //if the user has entered a new password, update it along with the rest of the form.
+//                                                                $newPasswordHashed = password_hash($newPassword, PASSWORD_DEFAULT);
+//                                                                try {
+//                                                                    $stmt2 = $conn->prepare("UPDATE users
+//                                                                                            SET email = ?, password = ?, location = ?, studio = ?, role = ?, about = ?
+//                                                                                            WHERE userID = ?");
+//                                                                    $stmt2->bind_param('ssssssi', $email, $newPasswordHashed, $location, $studio, $role, $about, $userID);
+//                                                                    $stmt2->execute();
+//                                                                } catch (PDOException $e) {
+//                                                                    echo "Error: " . $e->getMessage();
+//                                                                }
+//                                                            } else {
+//                                                                try {
+//                                                                    $stmt2 = $conn->prepare("UPDATE users
+//                                                                                            SET email = ?, location = ?, studio = ?, role = ?, about = ?
+//                                                                                            WHERE userID = ?");
+//                                                                    $stmt2->bind_param('sssssi', $email, $location, $studio, $role, $about, $userID);
+//                                                                    $stmt2->execute();
+//                                                                } catch (PDOException $e) {
+//                                                                    echo "Error: " . $e->getMessage();
+//                                                                }
+//                                                            }
+//
+//                                                        } else {
+//                                                            $_SESSION['settings_error'] = "Incorrect password. Please try again.";
+//                                                            print_r($_SESSION['settings_error']);
+//                                                            //header("Refresh:3; url=../../settings.php");
+//                                                            exit();
+//                                                        }
                                                     }
                                                 } else {
                                                     $_SESSION['settings_error'] = "New passwords do not match. Please try again.";
