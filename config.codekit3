@@ -171,6 +171,12 @@
 		"oAP": "\/mailtest.php",
 		"oF": 0
 		},
+	"\/phpinfo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/phpinfo.php",
+		"oF": 0
+		},
 	"\/quill.sql": {
 		"ft": 8192,
 		"oA": 2,
