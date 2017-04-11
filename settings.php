@@ -34,21 +34,32 @@
                 </div>
 
                 <div class="settings-form-wrapper-right-form">
-                    <form id="settings-update-form" class="form-horizontal">
+                    <form id="settings-update-form" action="./app/functions/settingsprocess.func.php"class="form-horizontal">
+                            <?php include './app/db.conn.php';	// make db connection ?>
                             <!-- Email address-->
                             <div class="form-group">
                                 <label class="col-md-4 control-label" for="email">Email Address</label>
                                 <div class="col-md-8">
+                                    <?php
+                                    ?>
                                     <input id="email" name="email" type="text" placeholder="" class="form-control input-md">
 
                                 </div>
                             </div>
 
-                            <!-- Password-->
+                            <!-- New Password-->
                             <div class="form-group">
-                                <label class="col-md-4 control-label" for="password">Password</label>
+                                <label class="col-md-4 control-label" for="newpassword">Change Password</label>
                                 <div class="col-md-8">
-                                    <input id="password" name="password" type="password" placeholder="" class="form-control input-md">
+                                    <input id="password" name="newpassword" type="password" placeholder="" class="form-control input-md">
+                                </div>
+                            </div>
+
+                            <!-- New Password Confirm-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="newpasswordconfirm">Confirm Password</label>
+                                <div class="col-md-8">
+                                    <input id="password" name="newpasswordconfirm" type="password" placeholder="" class="form-control input-md">
                                 </div>
                             </div>
 
@@ -85,20 +96,34 @@
                                     <textarea class="form-control" id="about" name="about"></textarea>
                                 </div>
                             </div>
+
+                            <!-- google Captcha -->
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <label style="text-align: center;" class="col-md-8 control-label" for="password">Enter password to confirm changes</label>
+                                    <div class="col-md-2"> </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-8">
+                                        <input id="password" name="password" type="password" placeholder="" class="form-control input-md">
+                                    </div>
+                                </div>
+                            </div>
                             <!-- google Captcha -->
                             <div class="form-group">
                                 <div class="col-md-2">
-
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
+                                <div class="col-md-8">
+                                    <div style="margin-left: -22px;"class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
                                 </div>
                             </div>
                             <!-- Submit -->
                             <div class="form-group">
-                                <div class="col-md-8">
+                                <div class="col-md-2">
                                 </div>
-                                <div id="settings-form-submit" class="col-md-4">
+                                <div id="settings-form-submit" class="col-md-8">
                                     <button type="submit" id="settings-submit-button" name="settings-submit" class="btn btn-primary flex-last">Submit</button>
                                 </div>
                             </div>

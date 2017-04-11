@@ -117,6 +117,12 @@
 		"oAP": "\/app\/functions\/usercheck.func.php",
 		"oF": 0
 		},
+	"\/app\/functions\/userpull.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/userpull.func.php",
+		"oF": 0
+		},
 	"\/build\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/functions/userpull.func.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" afterPath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" afterPath="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.php" afterPath="$PROJECT_DIR$/settings.php" />
@@ -23,29 +25,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="register.func.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/app/functions/register.func.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="433">
-                    <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-                    <folding>
-                      <marker date="1491613992000" expanded="true" signature="3590:3629" ph="SELECT email... users" />
-                      <marker date="1491613992000" expanded="true" signature="4508:4744" ph="INSERT INTO users... " />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -77,21 +56,45 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/settings.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+                <state relative-caret-position="648">
+                  <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settingsprocess.func.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="usercheck.func.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/functions/usercheck.func.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+                  <folding>
+                    <marker date="1491602866000" expanded="true" signature="155:197" ph="SELECT COUNT... users" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="userpull.func.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/functions/userpull.func.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="6" column="56" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="56" />
+                  <folding>
+                    <marker date="1491880876000" expanded="true" signature="171:252" ph="SELECT email... users" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settingsprocess.func.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+                <state relative-caret-position="528">
+                  <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -100,8 +103,8 @@
           <file leaf-file-name="login.func.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/functions/login.func.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="114" selection-end-column="19" />
+                <state relative-caret-position="-648">
+                  <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
                   <folding>
                     <marker date="1491764846000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
                     <marker date="1491764846000" expanded="true" signature="452:468" ph="SELECT * FRO... ${$tbl_name2}" />
@@ -117,8 +120,8 @@
           <file leaf-file-name="settings.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                <state relative-caret-position="302">
+                  <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -154,16 +157,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/assets/css/app.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -172,7 +165,7 @@
             <entry file="file://$PROJECT_DIR$/settings.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-96">
-                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+                  <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -211,9 +204,10 @@
         <option value="$PROJECT_DIR$/resources/assets/css/sass/pages/profile.sass" />
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/app.sass" />
+        <option value="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
+        <option value="$PROJECT_DIR$/app/functions/userpull.func.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass" />
         <option value="$PROJECT_DIR$/settings.php" />
-        <option value="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
       </list>
     </option>
   </component>
@@ -383,12 +377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="42075000" />
+      <workItem from="1491612515693" duration="45520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42075000" />
+    <option name="totallyTimeSpent" value="45520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1441" y="24" width="1919" height="1048" extended-state="6" />
@@ -598,6 +592,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="154" column="115" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/register.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <marker date="1491613992000" expanded="true" signature="3590:3629" ph="SELECT email... users" />
+            <marker date="1491613992000" expanded="true" signature="4508:4744" ph="INSERT INTO users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/login.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1491764846000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
+            <marker date="1491764846000" expanded="true" signature="452:468" ph="SELECT * FRO... ${$tbl_name2}" />
+            <marker date="1491764846000" expanded="true" signature="452:469" ph="SELECT * FRO... ipaddress" />
+            <marker date="1491764846000" expanded="true" signature="1249:1299" ph="SELECT userI... users" />
+            <marker date="1491764846000" expanded="true" signature="1691:1732" ph="SELECT activ... users" />
+            <marker date="1491764846000" expanded="true" signature="2815:2856" ph="INSERT INTO ipaddress... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/usercheck.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="85" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+          <folding>
+            <marker date="1491602866000" expanded="true" signature="155:197" ph="SELECT COUNT... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/userpull.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <marker date="1491880876000" expanded="true" signature="171:252" ph="SELECT email... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
@@ -618,76 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/components/header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/login.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="114" selection-end-column="19" />
-          <folding>
-            <marker date="1491764846000" expanded="true" signature="428:469" ph="SELECT * FRO... ipaddress" />
-            <marker date="1491764846000" expanded="true" signature="452:468" ph="SELECT * FRO... ${$tbl_name2}" />
-            <marker date="1491764846000" expanded="true" signature="452:469" ph="SELECT * FRO... ipaddress" />
-            <marker date="1491764846000" expanded="true" signature="1249:1299" ph="SELECT userI... users" />
-            <marker date="1491764846000" expanded="true" signature="1691:1732" ph="SELECT activ... users" />
-            <marker date="1491764846000" expanded="true" signature="2815:2856" ph="INSERT INTO ipaddress... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="154" column="115" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/css/sass/pages/settings.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/register.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-          <folding>
-            <marker date="1491613992000" expanded="true" signature="3590:3629" ph="SELECT email... users" />
-            <marker date="1491613992000" expanded="true" signature="4508:4744" ph="INSERT INTO users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/settingsprocess.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        <state relative-caret-position="648">
+          <caret line="118" column="64" selection-start-line="118" selection-start-column="64" selection-end-line="118" selection-end-column="64" />
           <folding />
         </state>
       </provider>
