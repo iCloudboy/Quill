@@ -41,11 +41,16 @@ if (isset($_POST['settings-submit'])){
                                                         echo "Error: " . $e->getMessage();
                                                     }
                                                     if ($stmt->fetch()) {
-                                                        //hash the entered password and check if it matches the hashed password in the database.
-                                                        $passwordHashed = password_hash($password, PASSWORD_DEFAULT);
-                                                        echo "$dbPasswordHashed\n\n";
-                                                        echo $passwordHashed;
-//                                                        if ($passwordHashed === $dbPasswordHashed) {
+//                                                        //hash the entered password and check if it matches the hashed password in the database.
+//                                                        $passwordHashed = password_hash($password, PASSWORD_DEFAULT);
+//                                                        echo "$dbPasswordHashed\n\n";
+//                                                        echo $passwordHashed;
+                                                          if (password_verify($password,$dbPasswordHashed)) {
+                                                              echo 'password matches!';
+
+                                                          } else {
+                                                              echo 'invalid password';
+                                                          }
 //                                                            $stmt->close();
 //                                                            if (!empty($newPassword)){ //if the user has entered a new password, update it along with the rest of the form.
 //                                                                $newPasswordHashed = password_hash($newPassword, PASSWORD_DEFAULT);
