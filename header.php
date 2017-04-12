@@ -42,7 +42,7 @@
                                 <li>";
                                     if (empty(retrievePicture()) === false){
                                         //echo 'hi';
-                                        echo '<img class="header-image" src=' . retrievePicture(). ' alt=' . retrieveForename() . '\'s profile picture\">';
+                                        echo '<img class="header-image" src=./' . retrievePicture(). ' alt=' . retrieveForename() . '\'s profile picture\">';
                                     } else {
                                         echo "what";
                                     }
