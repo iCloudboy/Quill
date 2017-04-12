@@ -41,7 +41,7 @@
                     }
 
                     if (empty(retrievePicture()) === false){
-                        echo '<img src="website/' . retrievePicture(). '" alt="' . retrieveForename() . '\'s profile picture">';
+                        echo '<img src="' . retrievePicture(). '" alt="' . retrieveForename() . '\'s profile picture">';
                     }
 
                     ?>
