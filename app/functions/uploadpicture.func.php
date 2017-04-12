@@ -10,6 +10,8 @@ function change_profile_image($user_id, $file_temp, $file_extension){
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("si", $file_path, $user_id);
         $stmt->execute();
+
+        header("Location: settings.php");
     } catch (PDOException $e) {
         echo $stmt . '<br>' . $e->getMessage();
     }
