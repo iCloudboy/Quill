@@ -10,6 +10,7 @@ function retrievePicture(){
 
         if ($stmt->fetch()){
             return $picture;
+            $stmt->close();
         }
     } else {
         echo 'SQL statement messed up';
@@ -26,6 +27,7 @@ function retrieveForename(){
 
         if ($stmt->fetch()){
             return $forename;
+            $stmt->close();
         }
     } else {
         echo 'SQL statement messed up';

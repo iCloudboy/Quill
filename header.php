@@ -13,6 +13,8 @@
         </div>
 
             <?php
+
+            require "./app/functions/retrievepicture.func.php";
             if (session_status() == PHP_SESSION_NONE) { //checks to see if a session has already been started before starting a new one.
                 session_start();
             }
@@ -37,7 +39,14 @@
                             <ul>
                                 <a href=\"register.php\"><li><img class='header-notification' src='./resources/assets/img/notification.png'></li></a>
                                 
-                                <li><img class='header-image' src='resources/assets/img/placeholder.png'></li>
+                                <li>";
+                                    if (empty(retrievePicture()) === false){
+                                        //echo 'hi';
+                                        echo '<img class="header-image" src=' . retrievePicture(). ' alt=' . retrieveForename() . '\'s profile picture\">';
+                                    } else {
+                                        echo "what";
+                                    }
+                                echo "</li>
                                 
                             </ul>    
                             <div class='header-image-menu'>

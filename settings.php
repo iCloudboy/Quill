@@ -17,7 +17,6 @@
                 <div class="settings-form-wrapper-left-img">
                     <!--<img src="resources/images/me.jpg"/> -->
                     <?php
-                        require "./app/functions/retrievepicture.func.php";
                         require "./app/functions/uploadpicture.func.php";
 
                     if (isset($_FILES['profile'])){
