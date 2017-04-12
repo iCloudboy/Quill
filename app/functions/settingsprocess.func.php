@@ -41,10 +41,7 @@ if (isset($_POST['settings-submit'])){
                                                         echo "Error: " . $e->getMessage();
                                                     }
                                                     if ($stmt->fetch()) {
-//                                                        //hash the entered password and check if it matches the hashed password in the database.
-//                                                        $passwordHashed = password_hash($password, PASSWORD_DEFAULT);
-//                                                        echo "$dbPasswordHashed\n\n";
-//                                                        echo $passwordHashed;
+
                                                           if (password_verify($password,$dbPasswordHashed)) {
                                                             $stmt->close();
                                                             if (!empty($newPassword)){ //if the user has entered a new password, update it along with the rest of the form.
@@ -55,6 +52,12 @@ if (isset($_POST['settings-submit'])){
                                                                                             WHERE userID = ?");
                                                                     $stmt2->bind_param('ssssssi', $email, $newPasswordHashed, $location, $studio, $role, $about, $userID);
                                                                     $stmt2->execute();
+
+                                                                    $_SESSION['settings_success'] = "Account settings successfully updated.";
+                                                                    print_r($_SESSION['settings_success']);
+                                                                    header("Refresh:3; url=../../settings.php");
+                                                                    exit();
+
                                                                 } catch (PDOException $e) {
                                                                     echo "Error: " . $e->getMessage();
                                                                 }
@@ -65,6 +68,11 @@ if (isset($_POST['settings-submit'])){
                                                                                             WHERE userID = ?");
                                                                     $stmt2->bind_param('sssssi', $email, $location, $studio, $role, $about, $userID);
                                                                     $stmt2->execute();
+
+                                                                    $_SESSION['settings_success'] = "Account settings successfully updated.";
+                                                                    print_r($_SESSION['settings_success']);
+                                                                    header("Refresh:3; url=../../settings.php");
+                                                                    exit();
                                                                 } catch (PDOException $e) {
                                                                     echo "Error: " . $e->getMessage();
                                                                 }

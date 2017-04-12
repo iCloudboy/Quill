@@ -15,13 +15,43 @@
         <div class="settings-form-wrapper">
             <div class="settings-form-wrapper-left">
                 <div class="settings-form-wrapper-left-img">
-                    <img src="resources/images/me.jpg"/>
+                    <!--<img src="resources/images/me.jpg"/> -->
+                    <?php
+                        require "./app/functions/retrievepicture.func.php";
+                        require "./app/functions/uploadpicture.func.php";
+
+                    if (isset($_FILES['profile'])){
+                        if (empty($_FILES['profile']['name'])) {
+                            echo 'please choose a file';
+                        } else {
+                            $allowed = array('jpg', 'jpeg', 'png');
+                            $file_name = $_FILES['profile']['name'];
+                            $explode = explode('.', $file_name); //determines what the file extension is using the explode() function. This function returns an array of strings that have been split on a boundary. Which in this case is the "." in the file name
+                            $file_extension = strtolower(end($explode)); //forces the file extension to be lowercase and selects the last element in the array returned from explode()
+                            $file_temp = $_FILES['profile']['tmp_name'];
+
+                            if (in_array($file_extension, $allowed)){
+                                change_profile_image($_SESSION['user'], $file_temp, $file_extension);
+                            } else {
+                                echo 'incorrect file type. Allowed file types: ';
+                                echo implode(', ', $allowed); //as opposed to explode() this joins array elements with a string
+                            }
+
+                        }
+                    }
+
+                    if (empty(retrievePicture()) === false){
+                        echo '<img src="' . retrievePicture(). '" alt="' . retrieveForename() . '\'s profile picture">';
+                    }
+
+                    ?>
                 </div>
                 <div class="settings-form-wrapper-left-text">
-                    <form>
+                    <form action="" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <div class="col-md-4">
-                                <input id="filebutton" name="filebutton" class="input-file" type="file">
+                                <input id="filebutton" name="profile" class="input-file" type="file">
+                                <input type="submit">
                             </div>
                         </div>
                     </form>

@@ -1,5 +1,5 @@
 <?php
 
-$conn = new PDO("mysql:host=localhost;dbname=quill", 'quill', 'quill123');
+$conn = new PDO("mysql:host=localhost;dbname=individual", 'root', 'root');
 //set the PDO error mode to exception
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

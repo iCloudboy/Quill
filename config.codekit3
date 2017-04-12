@@ -99,6 +99,12 @@
 		"oAP": "\/app\/functions\/register.func.php",
 		"oF": 0
 		},
+	"\/app\/functions\/retrievepicture.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/retrievepicture.func.php",
+		"oF": 0
+		},
 	"\/app\/functions\/sendmail.func.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -109,6 +115,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/functions\/settingsprocess.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/uploadpicture.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/uploadpicture.func.php",
 		"oF": 0
 		},
 	"\/app\/functions\/usercheck.func.php": {
@@ -370,6 +382,30 @@
 		"iS": 32796,
 		"oA": 0,
 		"oAP": "\/resources\/images\/me.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/picture\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/images\/picture\/.htaccess",
+		"oF": 0
+		},
+	"\/resources\/images\/picture\/090f5fc918.jpg": {
+		"ft": 16384,
+		"iS": 104526,
+		"oA": 0,
+		"oAP": "\/resources\/images\/picture\/090f5fc918.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/picture\/3f40c6dd01.jpg": {
+		"ft": 16384,
+		"iS": 32796,
+		"oA": 0,
+		"oAP": "\/resources\/images\/picture\/3f40c6dd01.jpg",
 		"oF": 0,
 		"opt": 0,
 		"q": 100

@@ -6,7 +6,6 @@ if (isset($_SESSION['user'])) {
         $stmt->bind_param("s", $userID);
         $stmt->execute();
         $stmt->bind_result($email, $location, $studio, $role, $about);
-
     }
 } else {
     $_SESSION['userpull_error'] = "You are not logged in. Please log in first.";
