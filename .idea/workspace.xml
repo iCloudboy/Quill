@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/functions/retrievepicture.func.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/functions/uploadpicture.func.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/picture/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db.conn.pdo.php" afterPath="$PROJECT_DIR$/app/db.conn.pdo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" afterPath="$PROJECT_DIR$/app/functions/settingsprocess.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/userpull.func.php" afterPath="$PROJECT_DIR$/app/functions/userpull.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.php" afterPath="$PROJECT_DIR$/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/uploadpicture.func.php" afterPath="$PROJECT_DIR$/app/functions/uploadpicture.func.php" />
     </list>
     <ignored path="Quill.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +28,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.8928356">
       <split-first>
         <leaf>
-          <file leaf-file-name="settings.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/settings.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="456">
@@ -84,13 +75,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="uploadpicture.func.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="uploadpicture.func.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/functions/uploadpicture.func.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+                <state relative-caret-position="96">
+                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                   <folding>
-                    <marker date="1491973142000" expanded="true" signature="438:487" ph="UPDATE `user... " />
+                    <marker date="1491973417000" expanded="true" signature="440:489" ph="UPDATE `user... " />
                   </folding>
                 </state>
               </provider>
@@ -489,12 +480,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="58420000" />
+      <workItem from="1491612515693" duration="58524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58420000" />
+    <option name="totallyTimeSpent" value="58524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1462" y="22" width="1919" height="1048" extended-state="0" />
@@ -865,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions/uploadpicture.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <marker date="1491973142000" expanded="true" signature="438:487" ph="UPDATE `user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -916,6 +897,16 @@
             <marker date="1491972020000" expanded="true" signature="8399:8807" ph="..." />
             <marker date="1491972020000" expanded="true" signature="8454:8493" ph="..." />
             <marker date="1491972020000" expanded="true" signature="8574:8772" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions/uploadpicture.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1491973417000" expanded="true" signature="440:489" ph="UPDATE `user... " />
           </folding>
         </state>
       </provider>
