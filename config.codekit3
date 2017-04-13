@@ -141,6 +141,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/designs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designs.php",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -252,6 +258,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/resources\/assets\/css\/sass\/components\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/resources\/assets\/css\/sass\/pages\/designs.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/designs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -410,6 +429,15 @@
 		"oA": 2,
 		"oAP": "\/resources\/images\/banner.psd",
 		"oF": 0
+		},
+	"\/resources\/images\/designbanner.jpg": {
+		"ft": 16384,
+		"iS": 418537,
+		"oA": 0,
+		"oAP": "\/resources\/images\/designbanner.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/resources\/images\/me.jpg": {
 		"ft": 16384,

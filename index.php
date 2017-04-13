@@ -25,6 +25,7 @@
                 <a href="popular.php"><li class="index-active">Popular</li></a>
                 <li>Recent</li>
             </ul>
+
         </div>
 
         <div id="index-main">

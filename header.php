@@ -6,8 +6,8 @@
             <div class="head-links">
                 <ul>
                     <a href="index.php"><li class="head-active">Home</li></a>
-                    <li>Designs</li>
-                    <li>Artists</li>
+                    <a href="designs.php"><li>Designs</li></a>
+                    <a href="index.php"><li>Artists</li></a>
                 </ul>
             </div>
         </div>
@@ -19,6 +19,7 @@
                 session_start();
             }
             if (!isset($_SESSION['user'])){
+
                 echo "
                     <div class=\"head-right-container\">
                         <div class=\"head-unregistered\">
@@ -58,6 +59,7 @@
                             </div>
                           </div>
                           <div class=\"head-search\">
+                                
                                 <input type=\"text\" placeholder=\"search\">
                           </div>
                       </div>
