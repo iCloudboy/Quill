@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="resources/assets/css/app.css">
         <?php include 'header.php'; ?>
         <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
     <div class="settings-wrapper">
@@ -160,6 +161,7 @@
         </div>
     </div>
     <?php include 'footer.php'; ?>
+    <script type='text/javascript' src="./resources/assets/js/app-min.js"> </script>
     </body>
     </html>
 <?php } else { header('Location: index.php'); } ?>

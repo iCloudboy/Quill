@@ -17,6 +17,8 @@
     <?php include 'header.php'; ?>
     <div class="index-wrapper">
         <div class="index-banner">
+            <h1>Welcome To Quill</h1>
+            <p>The online tattoo gallery and community</p>
         </div>
         <div class="index-sort-banner">
             <ul>

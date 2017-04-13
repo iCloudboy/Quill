@@ -1,7 +1,7 @@
     <div class="head-container">
         <div class="head-left-container">
             <div class="head-logo">
-                <h1>NAME</h1>
+                <h1>QUILL</h1>
             </div>
             <div class="head-links">
                 <ul>
@@ -46,7 +46,7 @@
                                     } else {
                                         echo "what";
                                     }
-                                echo "</li>
+                echo "            </li>
                                 
                             </ul>    
                             <div class='header-image-menu'>

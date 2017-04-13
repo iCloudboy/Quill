@@ -117,8 +117,18 @@
     font-size: 20px; }
 
 .index-banner {
-  background-color: #84E0D2;
-  height: 350px; }
+  background-image: url("/resources/images/banner.jpg");
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; }
+  .index-banner h1 {
+    margin-top: -10px;
+    font-size: 60px; }
+  .index-banner p {
+    font-size: 22px; }
 
 .index-sort-banner {
   height: 100px;
@@ -142,6 +152,7 @@
       padding: 0px 0px 5px 0px;
       font-weight: 600; }
 
+/* tattoo listings section */
 /* tattoo listings section */
 #index-main {
   height: auto;
@@ -421,3 +432,84 @@
         .settings-wrapper .settings-form-wrapper .settings-form-wrapper-right .settings-form-wrapper-right-form .settings-form-right {
           width: 45%;
           align-self: flex-end; }
+
+.profile-wrapper {
+  background-color: #F8F8F8;
+  height: 1100px;
+  display: flex;
+  padding: 100px 100px;
+  display: flex;
+  justify-content: center; }
+  .profile-wrapper .profile-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px; }
+    .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid #E1E2E2;
+      width: 500px;
+      height: 450px;
+      background-color: white; }
+      .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-wrapper {
+        margin-top: 50px; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-wrapper .profile-image {
+          width: 120px;
+          height: 120px; }
+      .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-text-wrapper .profile-image-name {
+          margin-top: 5px;
+          font-size: 28px;
+          text-transform: capitalize;
+          color: #95989A; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-text-wrapper .profile-image-location {
+          margin-top: -10px;
+          font-size: 18px;
+          font-weight: 200;
+          text-transform: capitalize;
+          color: #95989A; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-text-wrapper .profile-image-job {
+          margin: 5px;
+          color: #4A5B6E;
+          font-weight: 600; }
+      .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-buttons-wrapper {
+        display: flex;
+        flex-direction: column;
+        align0-items: center; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-buttons-wrapper #profile-button-booking {
+          margin-top: 40px;
+          background-color: #FFDA96;
+          border: none;
+          width: 175px;
+          height: 35px;
+          font-size: 18px;
+          font-weight: 400; }
+        .profile-wrapper .profile-top-wrapper .profile-top-wrapper-left .profile-image-buttons-wrapper #profile-button-message {
+          margin-top: 10px;
+          background-color: #84E0D2;
+          border: none;
+          width: 175px;
+          height: 35px;
+          font-size: 18px;
+          font-weight: 400; }
+    .profile-wrapper .profile-top-wrapper .profile-top-wrapper-right {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #E1E2E2;
+      background: #ffffff;
+      display: flex;
+      padding: 30px 40px;
+      flex-direction: column; }
+      .profile-wrapper .profile-top-wrapper .profile-top-wrapper-right p {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 200;
+        color: #95989A; }
+      .profile-wrapper .profile-top-wrapper .profile-top-wrapper-right h2 {
+        color: #95989A; }
