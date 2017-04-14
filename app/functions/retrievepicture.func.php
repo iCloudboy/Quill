@@ -117,3 +117,19 @@ function retrieveAbout(){
         echo 'SQL statement messed up';
     }
 }
+
+function retrieveTattooImage($tattooID){
+    require "./app/db.conn.php";
+    if ($stmt = $conn->prepare("SELECT tattooImage FROM tattoos WHERE tattooID = ?")) {
+        $stmt->bind_param("s", $tattooID);
+        $stmt->execute();
+        $stmt->bind_result($tattooImage);
+
+        if ($stmt->fetch()){
+            return $tattooImage;
+            $stmt->close();
+        }
+    } else {
+        echo 'SQL statement messed up';
+    }
+}

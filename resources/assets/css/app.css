@@ -594,3 +594,68 @@
         text-align: right; }
 
 /* tattoo listings section */
+.upload-wrapper {
+  background-color: #F8F8F8;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .upload-wrapper .upload-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 1000px;
+    border: 2px solid #E0E1E2; }
+    .upload-wrapper .upload-form-wrapper .upload-form-wrapper-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+      height: 80%;
+      border-right: 1px solid #95989A; }
+      .upload-wrapper .upload-form-wrapper .upload-form-wrapper-left img {
+        margin-right: 80px;
+        margin-top: 50px;
+        height: 240px;
+        width: 350px; }
+      .upload-wrapper .upload-form-wrapper .upload-form-wrapper-left h2 {
+        padding-right: 140px;
+        font-size: 28px;
+        color: #FFDA96; }
+    .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 40%;
+      height: 80%; }
+      .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 80px;
+        margin-top: 20px; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button {
+          background-color: #FFDA96;
+          width: 100%;
+          border: none;
+          color: white; }
+          .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button h3 {
+            color: #95989A;
+            font-size: 18px;
+            font-weight: normal; }
+          .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button .dob-select {
+            margin-top: 10px;
+            margin-bottom: 25px;
+            height: 30px;
+            background-color: #ffffff; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form img {
+          width: 200px;
+          height: 50px;
+          margin-bottom: 20px; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-left {
+          width: 45%; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-right {
+          width: 45%;
+          align-self: flex-end; }
