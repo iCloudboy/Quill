@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1323ef2a-8e4c-4e5c-ae94-2fcca2e21ce9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/functions/uploadtattoo.func.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tattoo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unsettattoo.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/2675620d42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/3e068c75fc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/48e7312129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/5692d8e46b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/62de436cee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/71a64cb16c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/75591d6234.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/802a9102f5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/9600ce2bde.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/97a5cbb410.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/97e25debf5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/991aa07984.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/9bba473de4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/a44b4630b9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/c5aeae4062.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/e65a1712d3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/e7b79e4e4d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/ec10e1e183.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/tattoo/f0f0e05544.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/functions/uploadpicture.func.php" afterPath="$PROJECT_DIR$/app/functions/uploadpicture.func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit3" afterPath="$PROJECT_DIR$/config.codekit3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designupload.php" afterPath="$PROJECT_DIR$/designupload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/sass/pages/upload.sass" afterPath="$PROJECT_DIR$/resources/assets/css/sass/pages/upload.sass" />
     </list>
     <ignored path="Quill.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,16 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2720">
               <caret line="154" column="115" selection-start-line="154" selection-start-column="24" selection-end-line="154" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="123" column="102" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -149,11 +113,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tattoo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tattoo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tattoo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -212,7 +186,6 @@
         <option value="$PROJECT_DIR$/resources/images/picture/.htaccess" />
         <option value="$PROJECT_DIR$/app/functions/userpull.func.php" />
         <option value="$PROJECT_DIR$/app/db.conn.pdo.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/assets/css/sass/components/header.sass" />
         <option value="$PROJECT_DIR$/settings.php" />
         <option value="$PROJECT_DIR$/resources/assets/css/sass/pages/profile.sass" />
@@ -232,6 +205,7 @@
         <option value="$PROJECT_DIR$/resources/assets/css/sass/pages/upload.sass" />
         <option value="$PROJECT_DIR$/designupload.php" />
         <option value="$PROJECT_DIR$/app/functions/uploadtattoo.func.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -530,12 +504,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491612514404</updated>
-      <workItem from="1491612515693" duration="102716000" />
+      <workItem from="1491612515693" duration="102996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102716000" />
+    <option name="totallyTimeSpent" value="102996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1440" height="874" extended-state="6" />
@@ -701,14 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1049,6 +1015,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
