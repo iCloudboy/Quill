@@ -123,6 +123,12 @@
 		"oAP": "\/app\/functions\/uploadpicture.func.php",
 		"oF": 0
 		},
+	"\/app\/functions\/uploadtattoo.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/uploadtattoo.func.php",
+		"oF": 0
+		},
 	"\/app\/functions\/usercheck.func.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -145,6 +151,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/designs.php",
+		"oF": 0
+		},
+	"\/designupload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designupload.php",
 		"oF": 0
 		},
 	"\/footer.php": {
@@ -340,6 +352,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/resources\/assets\/css\/sass\/pages\/upload.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/upload.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/resources\/assets\/img\/notification.png": {
 		"ft": 32768,
 		"iS": 14602,
@@ -486,6 +511,171 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/resources\/images\/tattoo\/05daea6208.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/05daea6208.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/070b351e30.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/070b351e30.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/126349654a.png": {
+		"ft": 32768,
+		"iS": 289967,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/126349654a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/25575d9b04.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/25575d9b04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/3c3978d40d.png": {
+		"ft": 32768,
+		"iS": 289967,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/3c3978d40d.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/4de2db3d18.png": {
+		"ft": 32768,
+		"iS": 644313,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/4de2db3d18.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/6e21178ca3.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/6e21178ca3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/6fd3948514.png": {
+		"ft": 32768,
+		"iS": 33867,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/6fd3948514.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/70127dcdbd.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/70127dcdbd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/a41de99467.png": {
+		"ft": 32768,
+		"iS": 33867,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/a41de99467.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/a91aa7535b.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/a91aa7535b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/abbe0bdf99.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/abbe0bdf99.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/aef4b186e8.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/aef4b186e8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/b38b5b864b.png": {
+		"ft": 32768,
+		"iS": 644313,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/b38b5b864b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/f64020230a.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/f64020230a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/resources\/images\/tattoo1.png": {
 		"ft": 32768,
 		"iS": 33867,
@@ -625,10 +815,22 @@
 		"oAP": "\/settings.php",
 		"oF": 0
 		},
+	"\/tattoo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tattoo.php",
+		"oF": 0
+		},
 	"\/testfile.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/testfile.php",
+		"oF": 0
+		},
+	"\/unsettattoo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/unsettattoo.php",
 		"oF": 0
 		}
 	},
