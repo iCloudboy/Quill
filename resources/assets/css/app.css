@@ -596,7 +596,7 @@
 /* tattoo listings section */
 .upload-wrapper {
   background-color: #F8F8F8;
-  height: 800px;
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -605,7 +605,7 @@
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    height: 600px;
+    height: 700px;
     width: 1000px;
     border: 2px solid #E0E1E2; }
     .upload-wrapper .upload-form-wrapper .upload-form-wrapper-left {
@@ -624,6 +624,13 @@
         padding-right: 140px;
         font-size: 28px;
         color: #FFDA96; }
+      .upload-wrapper .upload-form-wrapper .upload-form-wrapper-left .upload-tattoo-submit {
+        margin-top: 10px;
+        width: 175px;
+        height: 35px;
+        background-color: #FFDA96;
+        border: none;
+        color: #FFFFFF; }
     .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right {
       display: flex;
       align-items: center;
@@ -636,20 +643,38 @@
         width: 400px;
         margin-left: 80px;
         margin-top: 20px; }
-        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button {
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields h3 {
+          font-size: 18px;
+          color: #95989A;
+          font-weight: 200; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields #upload-submit-button {
           background-color: #FFDA96;
           width: 100%;
           border: none;
           color: white; }
-          .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button h3 {
-            color: #95989A;
-            font-size: 18px;
-            font-weight: normal; }
-          .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form #upload-submit-button .dob-select {
-            margin-top: 10px;
-            margin-bottom: 25px;
-            height: 30px;
-            background-color: #ffffff; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields #tattoo-title, .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields #tattoo-tags {
+          height: 35px;
+          width: 400px;
+          border: 1px solid #95989A; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields .tattoo-description {
+          height: 135px;
+          width: 400px;
+          border: 1px solid #95989A; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-fields h3 {
+          color: #95989A;
+          font-size: 18px;
+          font-weight: normal; }
+        .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-captchasubmit {
+          margin-top: -10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-captchasubmit .upload-submit {
+            width: 175px;
+            height: 35px;
+            background-color: #FFDA96;
+            border: none;
+            color: #FFFFFF; }
         .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form img {
           width: 200px;
           height: 50px;

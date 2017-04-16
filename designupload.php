@@ -20,19 +20,19 @@
                     <?php
                     require "./app/functions/uploadpicture.func.php";
 
-                    if (isset($_FILES['profile'])){
-                        if (empty($_FILES['profile']['name'])) {
+                    if (isset($_FILES['tattoo'])){
+                        if (empty($_FILES['tattoo']['name'])) {
                             echo 'please choose a file';
                         } else {
                             $allowed = array('jpg', 'jpeg', 'png');
-                            $file_name = $_FILES['profile']['name'];
+                            $file_name = $_FILES['tattoo']['name'];
                             $explode = explode('.', $file_name); //determines what the file extension is using the explode() function. This function returns an array of strings that have been split on a boundary. Which in this case is the "." in the file name
                             $file_extension = strtolower(end($explode)); //forces the file extension to be lowercase and selects the last element in the array returned from explode()
-                            $file_temp = $_FILES['profile']['tmp_name'];
+                            $file_temp = $_FILES['tattoo']['tmp_name'];
 
                             if (in_array($file_extension, $allowed)){
                                 //upload_tattoo_image($_SESSION['user'], $file_temp, $file_extension);
-                                $_SESSION['tattoo'] = upload_tattoo_image($_SESSION['user'], $file_temp, $file_extension);
+                                upload_tattoo_image($_SESSION['user'], $file_temp, $file_extension);
                             } else {
                                 echo 'incorrect file type. Allowed file types: ';
                                 echo implode(', ', $allowed); //as opposed to explode() this joins array elements with a string
@@ -40,9 +40,10 @@
 
                         }
                     }
-                    $tattooID=['tattoo'];
+
+                    $tattooID = $_SESSION['tattooID'];
                     if (empty(retrievePicture()) === false){
-                        echo '<img src="' . retrieveTattooImage($tattooID). '" alt="' . retrieveForename() . '\'s tattoo image   ">';
+                        echo '<img src="' . retrieveTattooImage($tattooID) . '" alt="' . retrieveForename() . '\'s tattoo image   ">';
                     }
 
                     ?>
@@ -51,8 +52,8 @@
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <div class="col-md-4">
-                                <input id="filebutton" name="profile" class="input-file" type="file">
-                                <input type="submit">
+                                <input id="filebutton" name="tattoo" class="input-file" type="file">
+                                <input class="upload-tattoo-submit" type="submit" value="Upload Image">
                             </div>
                         </div>
                     </form>
@@ -60,9 +61,21 @@
 
             </div>
             <div class="upload-form-wrapper-right">
-
                 <div class="upload-form-wrapper-right-form">
-
+                    <form action="app/functions/uploadtattoo.func.php" method="POST">
+                        <div class="upload-form-fields">
+                            <h3>Title</h3>
+                            <input type="text" id="tattoo-title" name="title" maxlength="50">
+                            <h3>Description</h3>
+                            <textarea class="tattoo-description" id="description" name="description"></textarea>
+                            <h3>Tags</h3>
+                            <input type="text" id="tattoo-tags" name="tags" maxlength="50">
+                        </div><br><br>
+                        <div class="upload-form-captchasubmit">
+                            <div id="upload-captcha" class="g-recaptcha" data-sitekey="6LdlDhwUAAAAAMTabZIQXNL0qVfRtKfEYYlCe-bz"></div><br>
+                            <input type="submit" class="upload-submit" value="Upload" name="upload-submit"/>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

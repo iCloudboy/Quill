@@ -28,15 +28,22 @@ function upload_tattoo_image($user_id, $file_temp, $file_extension){
         $stmt->bind_param("si", $file_path, $user_id);
         $stmt->execute();
 
-        if($stmt->fetch()){
+        if($stmt){
             $stmt->close();
-            $sql2 = "SELECT tattooID FROM tattoos WHERE userID = $user_id AND tattooImage = $file_path";
+            $sql2 = "SELECT tattooID FROM tattoos WHERE userID = ? AND tattooImage = ?";
             $stmt2 = $conn->prepare($sql2);
             $stmt2->bind_param("is", $user_id, $file_path);
             $stmt2->execute();
             $stmt2->bind_result($tattooID);
 
-           return $tattooID;
+            if ($stmt2->fetch()){
+                unset($_SESSION['tattooID']);
+                $_SESSION['tattooID'] = $tattooID;
+            } else {
+                echo 'fucked up';
+            }
+
+
         } else {
             echo "Tattoo upload failed";
         }
