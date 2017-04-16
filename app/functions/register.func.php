@@ -79,9 +79,9 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
                                                         email($email, 'Activate your Quill account', "
                                                         Hello " . $firstname . ",\n\n
                                                         Please activate your account using the link below:\n\n
-                                                        
-                                                        http://localhost:8888/activate.php?email=" . $email . "&email_code=" . $emailCode . " \n\n
-                                                        
+
+                                                        http://www.cohenmacdonald.com/website/activate.php?email=" . $email . "&email_code=" . $emailCode . " \n\n
+
                                                         - Quill
                                                         ");
                                                         echo "New record created successfully";
@@ -158,4 +158,3 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
     header("Refresh:3; url=/register.php");
     exit();
 }
-
