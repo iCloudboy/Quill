@@ -1,4 +1,7 @@
-<?php session_start(); if (isset($_SESSION['user'])) { ?>
+<?php
+session_start();
+require_once './app/functions/usercheck.func.php';
+if (isset($_SESSION['user']) && userType($_SESSION['user']) == true) { ?>
     <!DOCTYPE html>
     <html lang="en">
     <head>

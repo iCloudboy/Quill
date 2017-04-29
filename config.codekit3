@@ -63,6 +63,18 @@
 		"oAP": "\/activate.php",
 		"oF": 0
 		},
+	"\/activateemail.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/activateemail.php",
+		"oF": 0
+		},
+	"\/activatesuccess.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/activatesuccess.php",
+		"oF": 0
+		},
 	"\/app\/db.conn.pdo.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -75,10 +87,28 @@
 		"oAP": "\/app\/db.conn.php",
 		"oF": 0
 		},
-	"\/app\/db.conn2.php": {
+	"\/app\/functions\/acceptdecline.func.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/app\/db.conn2.php",
+		"oAP": "\/app\/functions\/acceptdecline.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/bookingprocess.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/bookingprocess.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/commentprocess.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/commentprocess.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/editcancel.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/editcancel.func.php",
 		"oF": 0
 		},
 	"\/app\/functions\/iptest.php": {
@@ -99,10 +129,22 @@
 		"oAP": "\/app\/functions\/register.func.php",
 		"oF": 0
 		},
+	"\/app\/functions\/retrievecomments.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/retrievecomments.func.php",
+		"oF": 0
+		},
 	"\/app\/functions\/retrievepicture.func.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/functions\/retrievepicture.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/searchprocess.func.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/searchprocess.func.php",
 		"oF": 0
 		},
 	"\/app\/functions\/sendmail.func.php": {
@@ -115,6 +157,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/functions\/settingsprocess.func.php",
+		"oF": 0
+		},
+	"\/app\/functions\/updateviewcount.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app\/functions\/updateviewcount.php",
 		"oF": 0
 		},
 	"\/app\/functions\/uploadpicture.func.php": {
@@ -139,6 +187,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/app\/functions\/userpull.func.php",
+		"oF": 0
+		},
+	"\/booking.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/booking.php",
+		"oF": 0
+		},
+	"\/bookingcancelled.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bookingcancelled.php",
 		"oF": 0
 		},
 	"\/build\/.gitignore": {
@@ -177,12 +237,6 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/kek.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/kek.html",
-		"oF": 0
-		},
 	"\/login.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -199,6 +253,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/mailtest.php",
+		"oF": 0
+		},
+	"\/mybookingrequests.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mybookingrequests.php",
+		"oF": 0
+		},
+	"\/mybookings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/mybookings.php",
 		"oF": 0
 		},
 	"\/phpinfo.php": {
@@ -223,6 +289,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/register.php",
+		"oF": 0
+		},
+	"\/requestaccepted.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/requestaccepted.php",
+		"oF": 0
+		},
+	"\/requestdeclined.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/requestdeclined.php",
 		"oF": 0
 		},
 	"\/resources\/assets\/css\/app.css": {
@@ -270,6 +348,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/resources\/assets\/css\/sass\/components\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/resources\/assets\/css\/sass\/pages\/activate.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/activate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/resources\/assets\/css\/sass\/pages\/booking.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/booking.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -339,6 +443,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/resources\/assets\/css\/sass\/pages\/request.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/request.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/resources\/assets\/css\/sass\/pages\/settings.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -348,6 +465,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/resources\/assets\/css\/sass\/pages\/settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/resources\/assets\/css\/sass\/pages\/tattoo.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/resources\/assets\/css\/sass\/pages\/tattoo.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -364,6 +494,28 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/resources\/assets\/img\/heart.png": {
+		"ft": 32768,
+		"iS": 15138,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/heart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/assets\/img\/heart2.png": {
+		"ft": 32768,
+		"iS": 15138,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/heart2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/resources\/assets\/img\/notification.png": {
 		"ft": 32768,
@@ -397,11 +549,55 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/resources\/assets\/img\/share.png": {
+		"ft": 32768,
+		"iS": 15487,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/share.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/assets\/img\/share2.png": {
+		"ft": 32768,
+		"iS": 15481,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/share2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/resources\/assets\/img\/squid.png": {
 		"ft": 32768,
 		"iS": 95449,
 		"oA": 0,
 		"oAP": "\/resources\/assets\/img\/squid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/assets\/img\/views.png": {
+		"ft": 32768,
+		"iS": 15425,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/views.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/assets\/img\/views2.png": {
+		"ft": 32768,
+		"iS": 15093,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/img\/views2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -435,11 +631,20 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/resources\/assets\/js\/dhdh.js": {
+	"\/resources\/assets\/js\/getRequest-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/resources\/assets\/js\/dhdh-min.js",
+		"oAP": "\/resources\/assets\/js\/getRequest-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/resources\/assets\/js\/getRequest.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/resources\/assets\/js\/getRequest-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -470,6 +675,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/resources\/images\/email.png": {
+		"ft": 32768,
+		"iS": 18963,
+		"oA": 0,
+		"oAP": "\/resources\/images\/email.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/resources\/images\/me.jpg": {
 		"ft": 16384,
 		"iS": 32796,
@@ -480,11 +696,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/resources\/images\/picture\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/images\/picture\/.htaccess",
+		"oF": 0
+		},
 	"\/resources\/images\/picture\/28e384e407.jpg": {
 		"ft": 16384,
 		"iS": 32796,
 		"oA": 0,
 		"oAP": "\/resources\/images\/picture\/28e384e407.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/picture\/3f2cefc909.jpg": {
+		"ft": 16384,
+		"iS": 203064,
+		"oA": 0,
+		"oAP": "\/resources\/images\/picture\/3f2cefc909.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -506,6 +738,22 @@
 		"iS": 32796,
 		"oA": 0,
 		"oAP": "\/resources\/images\/picture\/63f2954675.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources\/images\/tattoo\/.htaccess",
+		"oF": 0
+		},
+	"\/resources\/images\/tattoo\/03ffb4d9d1.jpg": {
+		"ft": 16384,
+		"iS": 538733,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/03ffb4d9d1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -544,6 +792,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/resources\/images\/tattoo\/1b3042fc11.jpg": {
+		"ft": 16384,
+		"iS": 364199,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/1b3042fc11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/resources\/images\/tattoo\/25575d9b04.png": {
 		"ft": 32768,
 		"iS": 62826,
@@ -553,6 +811,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/2e4310cf08.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/2e4310cf08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/344c786e97.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/344c786e97.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/resources\/images\/tattoo\/3c3978d40d.png": {
@@ -566,6 +844,37 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/resources\/images\/tattoo\/3f446a25cd.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/3f446a25cd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/40a1345491.png": {
+		"ft": 32768,
+		"iS": 62826,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/40a1345491.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/43ed64c690.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/43ed64c690.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/resources\/images\/tattoo\/4de2db3d18.png": {
 		"ft": 32768,
 		"iS": 644313,
@@ -575,6 +884,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/590fff863b.jpg": {
+		"ft": 16384,
+		"iS": 364199,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/590fff863b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/resources\/images\/tattoo\/6e21178ca3.png": {
@@ -610,6 +929,46 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/resources\/images\/tattoo\/7195239452.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/7195239452.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/7aa98f94cf.jpg": {
+		"ft": 16384,
+		"iS": 20990,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/7aa98f94cf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/95c0f94d2e.jpg": {
+		"ft": 16384,
+		"iS": 5379,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/95c0f94d2e.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/9830564e8a.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/9830564e8a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/resources\/images\/tattoo\/a41de99467.png": {
 		"ft": 32768,
 		"iS": 33867,
@@ -619,6 +978,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/a64a62c060.jpg": {
+		"ft": 16384,
+		"iS": 538733,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/a64a62c060.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/a87331917e.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/a87331917e.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/resources\/images\/tattoo\/a91aa7535b.png": {
@@ -665,6 +1044,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/resources\/images\/tattoo\/c371c9145a.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/c371c9145a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/cd09833f77.jpg": {
+		"ft": 16384,
+		"iS": 204848,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/cd09833f77.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/resources\/images\/tattoo\/f64020230a.png": {
 		"ft": 32768,
 		"iS": 62826,
@@ -674,6 +1073,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/resources\/images\/tattoo\/fd6791f203.jpg": {
+		"ft": 16384,
+		"iS": 12433,
+		"oA": 0,
+		"oAP": "\/resources\/images\/tattoo\/fd6791f203.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/resources\/images\/tattoo1.png": {

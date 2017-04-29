@@ -13,11 +13,16 @@
         </div>
 
             <?php
-
+            require "./app/db.conn.php";
+            require_once "./app/functions/usercheck.func.php";
             require "./app/functions/retrievepicture.func.php";
             if (session_status() == PHP_SESSION_NONE) { //checks to see if a session has already been started before starting a new one.
                 session_start();
             }
+            if (isset($_SESSION['user'])){
+                $userID = $_SESSION['user'];
+            }
+
             if (!isset($_SESSION['user'])){
 
                 echo "
@@ -47,12 +52,19 @@
                                     } else {
                                         echo "what";
                                     }
-                echo "            </li>
+                echo "          </li>
                                 
                             </ul>    
                             <div class='header-image-menu'>
                                     <ul>
                                         <a href='profile.php'><li>My Profile</li></a>
+                                        " ;
+                                        if (userType($userID) == true){
+                                            echo " <a href='designupload.php'><li>Upload Tattoo</li></a>";
+                                        }
+
+
+                                        echo "
                                         <a href='settings.php'><li>Account Settings</li></a>
                                         <a href='logout.php'><li>Logout</li></a>
                                     </ul>

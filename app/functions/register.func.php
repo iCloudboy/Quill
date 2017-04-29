@@ -13,22 +13,12 @@ $dobYear  = filter_has_var(INPUT_POST, 'DOBYear') ? $_POST['DOBYear']: null;
 $userPassword  = filter_has_var(INPUT_POST, 'password') ? $_POST['password']: null;
 $confirmpassword  = filter_has_var(INPUT_POST, 'confirmpassword') ? $_POST['confirmpassword']: null;
 
-////$firstname = mysqli_real_escape_string($conn, $firstname);
-//$firstname = $conn->real_escape_string($firstname);
-////$lastname = mysqli_real_escape_string($conn, $lastname);
-//$lastname = $conn->real_escape_string($lastname);
-////$dobDay = mysqli_real_escape_string($conn, $dobDay);
-//$dobDay = $conn->real_escape_string($dobDay);
-////$dobMonth = mysqli_real_escape_string($conn, $dobMonth);
-//$dobMonth = $conn->real_escape_string($dobMonth);
-////$dobYear = mysqli_real_escape_string($conn, $dobYear);
-//$dobYear = $conn->real_escape_string($dobYear);
-////$email = mysqli_real_escape_string($conn, $email);
-//$email = $conn->real_escape_string($email);
-////$userPassword = mysqli_real_escape_string($conn, $userPassword);
-//$userPassword = $conn->real_escape_string($userPassword);
-////$confirmpassword = mysqli_real_escape_string($conn, $confirmpassword);
-//$confirmpassword = $conn->real_escape_string($confirmpassword);
+//sanitise strings
+$firstname = filter_var($firstname, FILTER_SANITIZE_STRING);
+$lastname = filter_var($lastname, FILTER_SANITIZE_STRING);
+$userPassword = filter_var($userPassword, FILTER_SANITIZE_STRING);
+$userPassword = filter_var($confirmpassword, FILTER_SANITIZE_STRING);
+
 
 $dob = $dobYear . "-" . $dobMonth . "-" . $dobDay;
 
@@ -61,8 +51,9 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
                                             if ($userPassword === $confirmpassword) { //check if the passwords match
 
                                                 try {
-                                                    $stmt = $conn->prepare("SELECT email FROM users WHERE email = ?");
-                                                    $stmt->bindParam($stmt, $string = 's', $email);
+                                                    $sql = "SELECT email FROM users WHERE email = ?";
+                                                    $stmt = $conn->prepare($sql);
+                                                    $stmt->bindParam(1, $email, PDO::PARAM_STR);
                                                     $stmt->execute();
                                                 } catch (PDOException $e) {
                                                     echo "Error: " . $e->getMessage();
@@ -73,9 +64,17 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
                                                     $userType = 1;
                                                     $emailCode = md5($email + microtime());
                                                     try {
-                                                        $sql2 = "INSERT INTO users (forename,surname,dob,email,emailCode, password,userType)
-                                                                 VALUES ('$firstname','$lastname', '$dob', '$email', '$emailCode', '$passwordhash', '$userType')";
-                                                        $conn->exec($sql2);
+                                                        $sql2 = "INSERT INTO users(forename,surname,dob,email,emailCode,password,userType)
+                                                                 VALUES (?,?,?,?,?,?,?)";
+                                                        $stmt2 = $conn->prepare($sql2);
+                                                        $stmt2->bindParam(1, $firstname, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(2, $lastname, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(3, $dob, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(4, $email, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(5, $emailCode, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(6, $passwordhash, PDO::PARAM_STR);
+                                                        $stmt2->bindParam(7, $userType, PDO::PARAM_STR);
+                                                        $stmt2->execute();
                                                         email($email, 'Activate your Quill account', "
                                                         Hello " . $firstname . ",\n\n
                                                         Please activate your account using the link below:\n\n
@@ -84,8 +83,7 @@ if (isset($_POST['new-user'])){  //check if submit button was pressed
                                                         
                                                         - Quill
                                                         ");
-                                                        echo "New record created successfully";
-                                                        header("Refresh:3; url=/login.php");
+                                                        header("Location: ../../activateemail.php");
                                                     } catch (PDOException $e) {
                                                         echo $sql2 . '<br>' . $e->getMessage();
                                                     }

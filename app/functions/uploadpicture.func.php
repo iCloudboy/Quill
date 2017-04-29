@@ -40,7 +40,7 @@ function upload_tattoo_image($user_id, $file_temp, $file_extension){
                 unset($_SESSION['tattooID']);
                 $_SESSION['tattooID'] = $tattooID;
             } else {
-                echo 'fucked up';
+                echo 'didnt work';
             }
 
 

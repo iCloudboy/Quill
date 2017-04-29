@@ -8,13 +8,13 @@
         <?php include 'header.php'; ?>
     </head>
     <body>
-    <div class="login-wrapper">
-        <div class="login-form-wrapper">
-            <div class="login-form">
-                <div class="login-form-title">
+    <div class="activate-wrapper">
+        <div class="activate-form-wrapper">
+            <div class="activate-form">
+                <div class="activate-form-title">
                     <h2>NAME</h2>
                 </div>
-                <div class="login-form-input">
+                <div class="activate-form-input">
                     <?php
                     require "app/db.conn.php";
                     require "app/functions/sendmail.func.php";
@@ -22,7 +22,7 @@
                     ?>
                         <h2>Thanks, your account has been activated.</h2>
                     <?php
-                        header("Refresh:3; url=login.php");
+                        header("Location: activatesuccess.php");
                     } else {
                         if (isset($_GET['email'], $_GET['email_code'])) {
                             $email = trim($_GET['email']);
@@ -37,15 +37,15 @@
 
                                 if (!$stmt->fetch()){ //check if email address exists in the database
                                     $_SESSION['activate_error'] = "Sorry! something went wrong, we couldn't find that email address.";
-                                    //header("Refresh:3; url=/login.php");
+                                    //header("Refresh:3; url=/activate.php");
                                     print_r($_SESSION['activate_error']);
 
                                 } else if(activate($email, $email_code) === false) { //the activate function failed and returned false
                                     $_SESSION['activate_error'] = "Sorry! something went wrong, we couldn't activate your account.";
-                                    //header("Refresh:3; url=/login.php");
+                                    //header("Refresh:3; url=/activate.php");
                                     print_r($_SESSION['activate_error']);
 
-                                } else { //activate function did not fail and returned true.
+                                } else if(activate($email, $email_code)) { //activate function did not fail and returned true.
                                     $_SESSION['activate_valid'] = "email validated!";
                                     print_r($_SESSION['activate_valid']);
                                     header("Location: activate.php?success");
@@ -57,7 +57,7 @@
                             }
                         } else {
                             $_SESSION['activate_error'] = "Sorry! something went wrong, we couldn\'t activate your account.";
-                            //header("Refresh:3; url=/login.php");
+                            //header("Refresh:3; url=/activate.php");
                             print_r($_SESSION['activate_error']);
                         }
                     }
@@ -65,9 +65,9 @@
 
                     ?>
                 </div>
-                <div class="login-form-signup">
+                <div class="activate-form-signup">
                     <p>Don't have an account?</p>
-                    <a href="register.php"><p><span class="login-highlight">Sign up here</span></p></a>
+                    <a href="register.php"><p><span class="activate-highlight">Sign up here</span></p></a>
                 </div>
             </div>
         </div>

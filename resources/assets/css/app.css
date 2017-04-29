@@ -40,19 +40,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 450px; }
+    width: 450px;
+    height: auto; }
     .head-container .head-right-container .head-registered {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 200px; }
+      width: 200px;
+      height: auto; }
       .head-container .head-right-container .head-registered ul {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        list-style: none; }
+        list-style: none;
+        height: auto; }
         .head-container .head-right-container .head-registered ul li {
           margin-left: 30px; }
         .head-container .head-right-container .head-registered ul .header-notification {
@@ -61,16 +64,17 @@
           height: 40px; }
         .head-container .head-right-container .head-registered ul .header-image {
           width: 50px;
-          height: 50px; }
+          height: 50px;
+          border-radius: 50%; }
       .head-container .head-right-container .head-registered .header-image-menu {
         display: none;
         text-align: center;
-        margin-top: 80px;
-        margin-left: 105px;
+        margin-top: 115px;
+        margin-left: 95px;
         z-index: 999;
         position: absolute;
-        height: 100px;
-        width: 150px;
+        height: 180px;
+        width: 120px;
         background-color: #f8f8f8; }
         .head-container .head-right-container .head-registered .header-image-menu ul {
           display: flex;
@@ -79,7 +83,9 @@
             text-decoration: none;
             color: #828282; }
             .head-container .head-right-container .head-registered .header-image-menu ul a li {
-              padding-bottom: 20px; }
+              padding-bottom: 20px;
+              text-align: center;
+              margin-right: 20px; }
     .head-container .head-right-container a {
       text-decoration: none; }
     .head-container .head-right-container .head-unregistered {
@@ -531,36 +537,47 @@
     font-size: 22px; }
 
 .design-sort-banner {
-  height: 150px;
+  height: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .design-sort-banner h3 {
+    color: #4A5B6E; }
   .design-sort-banner ul {
     display: flex;
     list-style: none;
     flex-direction: row;
     flex-wrap: wrap; }
     .design-sort-banner ul li {
-      color: #95989A;
       font-size: 20px; }
-    .design-sort-banner ul a {
-      text-decoration: none; }
-    .design-sort-banner ul .design-active {
-      color: #FFDA96;
-      border-bottom: 2px solid #FFDA96;
-      padding: 0px 0px 5px 0px;
-      font-weight: 600; }
+      .design-sort-banner ul li a {
+        text-decoration: none;
+        color: #95989A; }
+      .design-sort-banner ul li .design-active {
+        color: #FFDA96;
+        border-bottom: 2px solid #FFDA96;
+        padding: 0px 0px 5px 0px;
+        font-weight: 600; }
     .design-sort-banner ul .padding-left {
       padding-left: 30px; }
-  .design-sort-banner #design-search {
-    margin-top: 20px;
-    width: 300px;
-    height: 30px;
-    color: #EAEAEA;
-    font-size: 20px;
-    font-weight: 200;
-    padding-left: 20px; }
+  .design-sort-banner #design-form {
+    padding-bottom: 20px; }
+    .design-sort-banner #design-form #design-search {
+      margin-top: 20px;
+      width: 300px;
+      height: 30px;
+      color: #828282;
+      font-size: 20px;
+      font-weight: 200;
+      padding-left: 10px;
+      padding-bottom: 10px; }
+    .design-sort-banner #design-form #tattoo-search-button {
+      height: 30px;
+      width: 100px;
+      background: #FFDA96;
+      border: none;
+      color: #FFFFFF; }
 
 /* tattoo listings section */
 /* tattoo listings section */
@@ -579,19 +596,44 @@
         padding-bottom: 15px;
         display: flex;
         align-self: center;
-        background: white; }
+        background: white;
+        position: relative; }
         #design-main #design-tattoo-container #design-tattoo-image-wrapper #design-tattoo-image img {
-          width: 100%; }
+          height: 210px;
+          width: 300px; }
+        #design-main #design-tattoo-container #design-tattoo-image-wrapper #design-tattoo-image a {
+          display: none;
+          position: absolute; }
+          #design-main #design-tattoo-container #design-tattoo-image-wrapper #design-tattoo-image a .image-overlay {
+            width: 300px;
+            max-width: 300px;
+            height: 210px;
+            background: RGBA(0, 0, 0, 0.4); }
+          #design-main #design-tattoo-container #design-tattoo-image-wrapper #design-tattoo-image a .image-overlay-text {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            opacity: 1;
+            color: #FFFFFF; }
     #design-main #design-tattoo-container #design-tattoo-social-wrapper {
       display: flex;
       justify-content: flex-end;
-      margin-right: 18px; }
+      margin-right: 18px;
+      padding-left: 5px; }
       #design-main #design-tattoo-container #design-tattoo-social-wrapper #design-tattoo-social {
         display: flex;
         justify-content: flex-end;
         background-color: white;
-        padding-right: 20px;
-        text-align: right; }
+        text-align: right;
+        color: #95989A; }
+        #design-main #design-tattoo-container #design-tattoo-social-wrapper #design-tattoo-social .tattoo-social-share {
+          margin-top: -5px;
+          width: 26px;
+          height: 26px; }
 
 /* tattoo listings section */
 .upload-wrapper {
@@ -684,3 +726,512 @@
         .upload-wrapper .upload-form-wrapper .upload-form-wrapper-right .upload-form-wrapper-right-form .upload-form-right {
           width: 45%;
           align-self: flex-end; }
+
+.tattoo-wrapper {
+  background-color: #F8F8F8;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .tattoo-wrapper .tattoo-artist-details {
+    height: 100px;
+    width: 950px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row; }
+    .tattoo-wrapper .tattoo-artist-details .tattoo-artist-image {
+      height: 100px;
+      width: 100px; }
+    .tattoo-wrapper .tattoo-artist-details .tattoo-details-wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 25px;
+      display: flex;
+      flex-direction: column; }
+      .tattoo-wrapper .tattoo-artist-details .tattoo-details-wrapper .tattoo-title {
+        font-size: 22px;
+        color: #95989A; }
+        .tattoo-wrapper .tattoo-artist-details .tattoo-details-wrapper .tattoo-title h1 {
+          font-weight: normal; }
+      .tattoo-wrapper .tattoo-artist-details .tattoo-details-wrapper .tattoo-artist-name {
+        font-size: 18px;
+        color: #95989A; }
+        .tattoo-wrapper .tattoo-artist-details .tattoo-details-wrapper .tattoo-artist-name .tattoo-highlight {
+          color: #84E0D2; }
+  .tattoo-wrapper .tattoo-content {
+    margin-top: 100px;
+    width: 950px;
+    height: 350px;
+    display: flex;
+    flex-direction: row; }
+    .tattoo-wrapper .tattoo-content .tattoo-left-container {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column; }
+      .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px; }
+        .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper p {
+          padding-left: 10px;
+          color: #95989A; }
+        .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-like {
+          padding-top: 20px;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-like i.material-icons {
+            font-size: 48px;
+            color: #95989A; }
+            .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-like i.material-icons.orangeHighlight {
+              color: #FFDA96; }
+        .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-share {
+          padding-top: 20px;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-share img {
+            height: 55px;
+            width: 50px; }
+        .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-view {
+          padding-top: 20px;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-social-media-wrapper .tattoo-social-media-view i.material-icons {
+            font-size: 48px;
+            color: #95989A; }
+      .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-tags-wrapper {
+        width: 85%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        padding: 40px 0px 0px 0px; }
+        .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-tags-wrapper p {
+          font-weight: bold; }
+          .tattoo-wrapper .tattoo-content .tattoo-left-container .tattoo-tags-wrapper p .tattoo-tags {
+            color: #95989A;
+            font-weight: normal;
+            padding-left: 20px; }
+    .tattoo-wrapper .tattoo-content .tattoo-right-container {
+      height: 100%;
+      width: 50%;
+      border: 1px solid #EFEFEF;
+      background-color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .tattoo-wrapper .tattoo-content .tattoo-right-container .tattoo-image {
+        height: 80%;
+        width: 80%; }
+
+.tattoo-comment-section-wrapper {
+  margin-top: 90px;
+  height: auto;
+  width: 950px;
+  display: flex;
+  justify-content: space-between; }
+  .tattoo-comment-section-wrapper .tattoo-comment-section-left {
+    height: auto;
+    width: 45%; }
+    .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-heading-wrapper {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-heading-wrapper .tattoo-comment-number h2 {
+        font-size: 24px;
+        color: #95989A; }
+      .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-heading-wrapper .tattoo-comment-sort {
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-heading-wrapper .tattoo-comment-sort p {
+          color: #95989A; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-heading-wrapper .tattoo-comment-sort .tattoo-sort-highlight {
+          color: #FFDA96;
+          font-weight: bold; }
+    .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column; }
+      .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 2px solid #EDEEEE;
+        padding: 40px 0px; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-comment-image {
+          width: 20%;
+          height: 60px; }
+          .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-comment-image img {
+            width: 60px;
+            height: 60px; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper {
+          width: 80%;
+          display: flex;
+          flex-direction: column; }
+          .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper .tattoo-individual-comment-name {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; }
+            .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper .tattoo-individual-comment-name a {
+              text-decoration: none; }
+            .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper .tattoo-individual-comment-name p {
+              color: #95989A;
+              font-size: 14px; }
+            .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper .tattoo-individual-comment-name .tattoo-comment-name-highlight {
+              font-size: 18px;
+              color: #84E0D2;
+              font-weight: bold; }
+          .tattoo-comment-section-wrapper .tattoo-comment-section-left .tattoo-comment-display-wrapper .tattoo-individual-comment-wrapper .tattoo-individual-comment-details-wrapper .tattoo-individual-comment {
+            font-size: 14 px;
+            margin-top: 10px;
+            font-weight: normal;
+            color: #95989A; }
+  .tattoo-comment-section-wrapper .tattoo-comment-section-right {
+    height: auto;
+    width: 45%;
+    padding-bottom: 50px; }
+    .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-title-wrapper {
+      color: #95989A; }
+    .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-input {
+      display: flex; }
+      .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-input .tattoo-comment-post-form {
+        width: 100%; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-input .tattoo-comment-post-form textarea {
+          padding: 10px;
+          font-size: 14px;
+          margin-top: 40px;
+          margin-bottom: 20px;
+          width: 100%;
+          height: 200px;
+          border: 1px solid #95989A; }
+        .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-input .tattoo-comment-post-form .tattoo-comment-post-submit {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%; }
+          .tattoo-comment-section-wrapper .tattoo-comment-section-right .tattoo-comment-post-input .tattoo-comment-post-form .tattoo-comment-post-submit .tattoo-submit-button {
+            margin-top: 20px;
+            background-color: #FFDA96;
+            color: #FFFFFF;
+            width: 105px;
+            height: 30px;
+            border: 0; }
+
+.activate-wrapper {
+  background-color: #F8F8F8;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .activate-wrapper .activate-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 1000px;
+    border: 2px solid #E0E1E2; }
+    .activate-wrapper .activate-form-wrapper .activate-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 80%;
+      width: 80%; }
+      .activate-wrapper .activate-form-wrapper .activate-form .activate-form-title {
+        font-size: 26px; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-title h2 {
+          font-weight: normal; }
+      .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input h2 {
+          color: #95989A; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input i {
+          font-size: 140px;
+          color: #84E0D2; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input h3 {
+          font-weight: normal;
+          color: #95989A; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input p {
+          margin-top: 10px;
+          font-weight: bold;
+          color: #4A5B6E; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-userpass h3 {
+          color: #95989A;
+          font-size: 18px;
+          font-weight: normal; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-userpass input {
+          margin-top: 10px;
+          margin-bottom: 25px;
+          border: 1px solid #95989A;
+          width: 450px;
+          height: 30px;
+          background-color: #FFFFFF;
+          box-shadow: none;
+          color: #000000;
+          font-size: 14px; }
+        .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-checksubmit {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+          .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-checksubmit .activate-form-checksubmit-check {
+            display: flex;
+            flex-direction: row;
+            align-items: center; }
+            .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-checksubmit .activate-form-checksubmit-check .activate-rememberme {
+              width: 20px;
+              height: 20px;
+              border: 1px solid #95989A; }
+            .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-checksubmit .activate-form-checksubmit-check p {
+              color: #95989A;
+              font-size: 16px;
+              font-weight: normal;
+              margin-left: 5px; }
+          .activate-wrapper .activate-form-wrapper .activate-form .activate-form-input .activate-form-checksubmit .activate-submit {
+            display: flex;
+            background-color: #FFDA96;
+            align-self: flex-end;
+            width: 175px;
+            height: 35px;
+            justify-content: center;
+            color: #FFFFFF;
+            font-size: 18px;
+            border: none; }
+    .activate-wrapper .activate-form-wrapper .activate-form-signup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+      justify-content: center;
+      color: #95989A; }
+      .activate-wrapper .activate-form-wrapper .activate-form-signup a {
+        text-decoration: none; }
+      .activate-wrapper .activate-form-wrapper .activate-form-signup .activate-highlight {
+        color: #84E0D2; }
+
+.booking-wrapper {
+  background-color: #F8F8F8;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .booking-wrapper .booking-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 700px;
+    width: 1200px;
+    border: 2px solid #E0E1E2; }
+    .booking-wrapper .booking-main .booking-form-wrapper-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      height: 80%;
+      border-right: 1px solid #95989A; }
+      .booking-wrapper .booking-main .booking-form-wrapper-left img {
+        margin-right: 80px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%; }
+      .booking-wrapper .booking-main .booking-form-wrapper-left .booking-form-wrapper-left-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .booking-wrapper .booking-main .booking-form-wrapper-left .booking-form-wrapper-left-text h2 {
+          font-size: 28px;
+          color: #95989A;
+          margin-right: 90px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-left .booking-form-wrapper-left-text p {
+          margin-top: -8px;
+          margin-right: 90px;
+          font-size: 18px;
+          color: #95989A; }
+        .booking-wrapper .booking-main .booking-form-wrapper-left .booking-form-wrapper-left-text .booking-studio-text {
+          margin-top: 10px;
+          font-size: 18px;
+          color: #4A5B6E;
+          font-weight: bold;
+          margin-right: 70px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-left .booking-form-wrapper-left-text .booking-price-text {
+          margin-top: 0px;
+          font-size: 20px;
+          color: #84E0D2; }
+    .booking-wrapper .booking-main .booking-form-wrapper-right {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      height: 80%;
+      padding-left: 50px; }
+      .booking-wrapper .booking-main .booking-form-wrapper-right h1 {
+        font-size: 20px;
+        color: #95989A; }
+        .booking-wrapper .booking-main .booking-form-wrapper-right h1 .booking-highlight {
+          color: #84E0D2; }
+      .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form {
+        margin-top: 30px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form p {
+          color: #95989A;
+          font-size: 18px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-form-description {
+          width: 470px;
+          height: 150px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-dropdown-container {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+          .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-dropdown-container .booking-dropdown-left input {
+            width: 200px;
+            height: 35px; }
+          .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-dropdown-container .booking-dropdown-right {
+            margin-left: 70px; }
+            .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-dropdown-container .booking-dropdown-right input {
+              width: 200px;
+              height: 35px; }
+        .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-captcha-submit {
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          .booking-wrapper .booking-main .booking-form-wrapper-right .booking-form .booking-captcha-submit .booking-submit {
+            width: 175px;
+            height: 35px;
+            background-color: #FFDA96;
+            border: none;
+            color: #FFFFFF; }
+
+.request-wrapper {
+  background-color: #F8F8F8;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 75px;
+  padding-bottom: 75px; }
+  .request-wrapper .request-main {
+    display: flex;
+    padding: 50px 100px;
+    background-color: #FFFFFF;
+    height: auto;
+    width: 1200px;
+    border: 2px solid #E0E1E2;
+    flex-direction: column; }
+    .request-wrapper .request-main .request-title h1 {
+      color: #95989A; }
+    .request-wrapper .request-main .request-container {
+      margin-top: 50px;
+      width: 100%;
+      height: auto; }
+      .request-wrapper .request-main .request-container .request-heading {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #95989A; }
+        .request-wrapper .request-main .request-container .request-heading .request-name {
+          height: 100%;
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .request-wrapper .request-main .request-container .request-heading .request-name h1 {
+            color: #95989A;
+            font-size: 24px;
+            padding-bottom: 10px; }
+        .request-wrapper .request-main .request-container .request-heading .request-description {
+          height: 100%;
+          width: 400px;
+          display: flex;
+          align-items: center; }
+          .request-wrapper .request-main .request-container .request-heading .request-description h1 {
+            color: #95989A;
+            font-size: 24px;
+            padding-bottom: 10px; }
+        .request-wrapper .request-main .request-container .request-heading .request-date {
+          width: 200px;
+          height: 100%;
+          border-left: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .request-wrapper .request-main .request-container .request-heading .request-date h1 {
+            color: #95989A;
+            font-size: 24px;
+            padding-bottom: 10px; }
+        .request-wrapper .request-main .request-container .request-heading .request-acceptdecline {
+          width: 200px;
+          height: 100%;
+          border-left: 0px; }
+          .request-wrapper .request-main .request-container .request-heading .request-acceptdecline h1 {
+            color: #95989A;
+            font-size: 24px; }
+      .request-wrapper .request-main .request-container .request-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #95989A;
+        padding-bottom: 15px; }
+        .request-wrapper .request-main .request-container .request-content .request-retrieve-name {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .request-wrapper .request-main .request-container .request-content .request-retrieve-name p {
+            color: #84E0D2;
+            font-size: 20px;
+            text-align: center; }
+        .request-wrapper .request-main .request-container .request-content .request-retrieve-description {
+          height: 100%;
+          width: 400px;
+          border-top: 0px;
+          display: flex;
+          padding-top: 20px; }
+          .request-wrapper .request-main .request-container .request-content .request-retrieve-description p {
+            color: #95989A;
+            font-size: 14px; }
+        .request-wrapper .request-main .request-container .request-content .request-retrieve-date {
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          .request-wrapper .request-main .request-container .request-content .request-retrieve-date p {
+            color: #4A5B6E;
+            font-size: 14px; }
+        .request-wrapper .request-main .request-container .request-content .request-retrieve-acceptdecline {
+          width: 200px;
+          border-top: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .request-wrapper .request-main .request-container .request-content .request-retrieve-acceptdecline form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px; }
+            .request-wrapper .request-main .request-container .request-content .request-retrieve-acceptdecline form input {
+              background-color: #FFDA96;
+              border: none;
+              color: #FFFFFF;
+              width: 100px;
+              height: 30px; }
+            .request-wrapper .request-main .request-container .request-content .request-retrieve-acceptdecline form .request-right-button {
+              margin-left: 20px;
+              background-color: #FC5A5A; }

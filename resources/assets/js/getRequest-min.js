@@ -1,0 +1,1 @@
+function getRequest(t){"use strict";var e;if(window.XMLHttpRequest)e=new XMLHttpRequest;else if(window.ActiveXObject)try{e=new ActiveXObject("Msxml2.XMLHTTP")}catch(t){try{e=new ActiveXObject("Microsoft.XMLHTTP")}catch(t){}}e||alert("Giving up :( Cannot create an XMLHTTP instance"),e.onreadystatechange=function(){alertContents(e)},e.open("get",t,!0),e.send(null)}
